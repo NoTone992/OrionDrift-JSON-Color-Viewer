@@ -40,16 +40,9 @@
             <p class="text-lg text-gray-400 mt-2">Drag and drop your JSON metadata file to inspect color details.</p>
         </header>
 
-        <!-- Drop Zone -->
-        <div id="drop-zone" class="p-10 text-center border-2 border-gray-700 rounded-xl bg-gray-800 shadow-2xl cursor-pointer hover:shadow-xl transition-shadow duration-300">
-            <svg class="mx-auto h-12 w-12 text-teal-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v8" />
-            </svg>
-            <p class="mt-1 text-sm text-gray-300 font-semibold">
-                Drag and drop your JSON file here, or click to select file
-            </p>
-            <p class="text-xs text-gray-500">File must be a valid JSON structure (.json)</p>
-            <input type="file" id="file-input" accept=".json" class="hidden" />
+        <!-- Auto-loaded presets (loads assets/colorPresets.json) -->
+        <div id="loader" class="p-6 text-center rounded-xl bg-gray-800 border border-gray-700 shadow-md">
+            <p class="text-sm text-gray-300">Loading color presets from <span class="font-mono text-teal-300">./colorPresets.json</span>…</p>
         </div>
 
         <!-- Alert/Feedback Area -->
@@ -75,8 +68,8 @@
     <script>
         // --- Core Application Logic ---
 
-        const dropZone = document.getElementById('drop-zone');
-        const fileInput = document.getElementById('file-input');
+        const loader = document.getElementById('loader');
+        const fileInput = null;
         const resultsContainer = document.getElementById('results-container');
         const messageBox = document.getElementById('message-box');
         const placeholderText = document.getElementById('placeholder-text');
@@ -128,6 +121,39 @@
             }, 5000);
         };
 
+        // Draw a four-zone diagonal preset icon onto a square canvas (adapted from script.js)
+        function drawPresetIconToCanvas(canvas, primary, secondary, tertiary, emissive) {
+            const n = canvas.width;
+            const ctx = canvas.getContext('2d');
+
+            const t1 = n * 1.00;
+            const t2 = n * 1.30;
+            const t3 = n * 1.85;
+
+            function band(threshold) {
+                const p = new Path2D();
+                if (threshold <= n) {
+                    p.moveTo(threshold, 0);
+                    p.lineTo(n, 0); p.lineTo(n, n); p.lineTo(0, n);
+                    p.lineTo(0, threshold);
+                } else if (threshold < 2 * n) {
+                    p.moveTo(n, threshold - n);
+                    p.lineTo(n, n);
+                    p.lineTo(threshold - n, n);
+                } else {
+                    return null;
+                }
+                p.closePath();
+                return p;
+            }
+
+            ctx.clearRect(0, 0, n, n);
+            ctx.fillStyle = primary; ctx.fillRect(0, 0, n, n);
+            const p2 = band(t1); if (p2) { ctx.fillStyle = secondary; ctx.fill(p2); }
+            const p3 = band(t2); if (p3) { ctx.fillStyle = tertiary;  ctx.fill(p3); }
+            const p4 = band(t3); if (p4) { ctx.fillStyle = emissive;  ctx.fill(p4); }
+        }
+
         // Renders a single color swatch panel - Updated styles (smaller, rectangular, HEX only)
         const renderColorSwatch = (colorName, colorData) => {
             if (!colorData || !colorData.Hex || colorData.R === undefined) {
@@ -175,6 +201,9 @@
                 renderColorSwatch('Emissive Color', preset.EmissiveColor),
             ].join('');
 
+            // small preset icon canvas (drawn later after insertion)
+            const iconCanvasHtml = `<canvas class="preset-icon" width="64" height="64" aria-hidden="true"></canvas>`;
+
             // Reduced overall padding from p-6 to p-4 and gap from 4 to 3
             return `
                 <div class="bg-gray-800 border-t-4 border-teal-500 rounded-2xl shadow-2xl p-4 flex flex-col transition-all duration-200 hover:shadow-teal-500/20 hover:scale-[1.01]">
@@ -193,8 +222,11 @@
                         </button>
                     </div>
                     
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                        ${colorsHtml}
+                    <div class="flex items-start gap-4 mb-3">
+                        ${iconCanvasHtml}
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 flex-1">
+                            ${colorsHtml}
+                        </div>
                     </div>
                     
                     ${preset.Description ? `<p class="mt-3 text-sm text-gray-400 italic">${preset.Description}</p>` : ''}
@@ -235,6 +267,23 @@
 
             if (renderedCount > 0) {
                 resultsContainer.innerHTML = htmlContent;
+
+                // Draw preset icon canvases for each rendered card by mapping card -> presetId
+                const cards = resultsContainer.querySelectorAll('div.bg-gray-800');
+                cards.forEach(card => {
+                    const idElem = card.querySelector('p[title]');
+                    const presetId = idElem ? idElem.getAttribute('title') : null;
+                    if (!presetId) return;
+                    const preset = allPresets[presetId];
+                    if (!preset) return;
+                    const canvas = card.querySelector('canvas.preset-icon');
+                    if (!canvas) return;
+                    const primary   = '#' + (preset.PrimaryColor?.Hex   ?? '808080');
+                    const secondary = '#' + (preset.SecondaryColor?.Hex ?? 'BCBCBC');
+                    const tertiary  = '#' + (preset.TertiaryColor?.Hex  ?? 'BCBCBC');
+                    const emissive  = '#' + (preset.EmissiveColor?.Hex  ?? '00FFFD');
+                    drawPresetIconToCanvas(canvas, primary, secondary, tertiary, emissive);
+                });
             } else {
                 resultsContainer.innerHTML = `<p class="text-center text-gray-500 p-10">No color presets match "${searchTerm}".</p>`;
             }
@@ -315,48 +364,27 @@
         searchInput.addEventListener('keyup', (e) => filterAndRenderPresets(e.target.value));
 
 
-        // Prevent default drag behaviors
-        ['dragenter', 'dragover', 'dragleave', 'drop'].forEach(eventName => {
-            dropZone.addEventListener(eventName, preventDefaults, false);
-            document.body.addEventListener(eventName, preventDefaults, false);
-        });
-
-        function preventDefaults(e) {
-            e.preventDefault();
-            e.stopPropagation();
-        }
-
-        // Highlight drop zone when dragging over
-        ['dragenter', 'dragover'].forEach(eventName => {
-            dropZone.addEventListener(eventName, () => dropZone.classList.add('drag-over'), false);
-        });
-
-        // Remove highlight when dragging leaves
-        ['dragleave', 'drop'].forEach(eventName => {
-            dropZone.addEventListener(eventName, () => dropZone.classList.remove('drag-over'), false);
-        });
-
-        // Handle file drop
-        dropZone.addEventListener('drop', (e) => {
-            const dt = e.dataTransfer;
-            const files = dt.files;
-            if (files.length) {
-                readFile(files[0]);
-            }
-        }, false);
-
-        // Handle click to open file dialog
-        dropZone.addEventListener('click', () => {
-            fileInput.click();
-        });
+        // Drag-and-drop removed; presets are loaded automatically from assets.
 
         // Handle file selection from input
-        fileInput.addEventListener('change', (e) => {
-            const files = e.target.files;
-            if (files.length) {
-                readFile(files[0]);
+        // No file input – automatically load assets/colorPresets.json on startup
+
+        async function loadPresetsFromAssets() {
+            try {
+                const res = await fetch('colorPresets.json');
+                if (!res.ok) throw new Error(res.status);
+                const json = await res.json();
+                loader?.classList.add('hidden');
+                processData(json);
+            } catch (err) {
+                console.error('Failed to load presets:', err);
+                loader?.classList.remove('hidden');
+                displayMessage('Failed to load ./colorPresets.json', true);
             }
-        });
+        }
+
+        // Kick off automatic load
+        window.addEventListener('DOMContentLoaded', () => loadPresetsFromAssets());
 
     </script>
 </body>

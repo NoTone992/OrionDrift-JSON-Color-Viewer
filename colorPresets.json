@@ -1,0 +1,6364 @@
+[
+  {
+    "Type": "DataTable",
+    "Name": "DT_ItemColorPresetMetadata",
+    "Class": "UScriptClass'DataTable'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RowStruct": {
+        "ObjectName": "Class'A2ItemColorPresetMetadata'",
+        "ObjectPath": "/Script/AAItems"
+      }
+    },
+    "Rows": {
+      "ColorPresetDefault": {
+        "PrimaryColor": {
+          "R": 0.215861,
+          "G": 0.215861,
+          "B": 0.215861,
+          "A": 1.0,
+          "Hex": "808080"
+        },
+        "SecondaryColor": {
+          "R": 0.502887,
+          "G": 0.502887,
+          "B": 0.502887,
+          "A": 1.0,
+          "Hex": "BCBCBC"
+        },
+        "TertiaryColor": {
+          "R": 0.502887,
+          "G": 0.502887,
+          "B": 0.502887,
+          "A": 1.0,
+          "Hex": "BCBCBC"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Boot Up Basic",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset01": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "SecondaryColor": {
+          "R": 0.138432,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "680000"
+        },
+        "TertiaryColor": {
+          "R": 0.138432,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "680000"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "RAM Red",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset02": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.723055,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "00DD00"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.129557,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "006500"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.130136,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "006500"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Gigabyte Green",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset03": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.090842,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0055FF"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.0185,
+          "B": 0.116971,
+          "A": 1.0,
+          "Hex": "002560"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.0185,
+          "B": 0.116971,
+          "A": 1.0,
+          "Hex": "002560"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Binary Blue",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset04": {
+        "PrimaryColor": {
+          "R": 0.806952,
+          "G": 0.806952,
+          "B": 0.806952,
+          "A": 1.0,
+          "Hex": "E8E8E8"
+        },
+        "SecondaryColor": {
+          "R": 0.158961,
+          "G": 0.187821,
+          "B": 0.250158,
+          "A": 1.0,
+          "Hex": "6F7889"
+        },
+        "TertiaryColor": {
+          "R": 0.158961,
+          "G": 0.187821,
+          "B": 0.250158,
+          "A": 1.0,
+          "Hex": "6F7889"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Widget White",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.preset04"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset05": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.617207,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFCE00"
+        },
+        "SecondaryColor": {
+          "R": 0.520996,
+          "G": 0.194618,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "BF7A00"
+        },
+        "TertiaryColor": {
+          "R": 0.520996,
+          "G": 0.194618,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "BF7A00"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Yottabyte Yellow",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.preset05"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset06": {
+        "PrimaryColor": {
+          "R": 0.246201,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "8800FF"
+        },
+        "SecondaryColor": {
+          "R": 0.053956,
+          "G": 0.0,
+          "B": 0.384766,
+          "A": 1.0,
+          "Hex": "4100A7"
+        },
+        "TertiaryColor": {
+          "R": 0.05448,
+          "G": 0.0,
+          "B": 0.38643,
+          "A": 1.0,
+          "Hex": "4200A7"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Proxy Purple",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.preset06"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset07": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.212231,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF7F00"
+        },
+        "SecondaryColor": {
+          "R": 0.259766,
+          "G": 0.048495,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "8B3E00"
+        },
+        "TertiaryColor": {
+          "R": 0.258183,
+          "G": 0.048172,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "8B3E00"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "OpCode Orange",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.preset07"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset08": {
+        "PrimaryColor": {
+          "R": 0.806952,
+          "G": 0.266356,
+          "B": 0.038204,
+          "A": 1.0,
+          "Hex": "E88D37"
+        },
+        "SecondaryColor": {
+          "R": 0.13,
+          "G": 0.016318,
+          "B": 0.023618,
+          "A": 1.0,
+          "Hex": "65222A"
+        },
+        "TertiaryColor": {
+          "R": 0.130136,
+          "G": 0.015996,
+          "B": 0.023153,
+          "A": 1.0,
+          "Hex": "65222A"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Rust Runners",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.rustrunners"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset09": {
+        "PrimaryColor": {
+          "R": 0.061246,
+          "G": 0.250158,
+          "B": 0.005182,
+          "A": 1.0,
+          "Hex": "468910"
+        },
+        "SecondaryColor": {
+          "R": 0.99,
+          "G": 0.685923,
+          "B": 0.036848,
+          "A": 1.0,
+          "Hex": "FED836"
+        },
+        "TertiaryColor": {
+          "R": 0.991102,
+          "G": 0.686686,
+          "B": 0.036889,
+          "A": 1.0,
+          "Hex": "FED836"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Ceres Cobs",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.cobs"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset10": {
+        "PrimaryColor": {
+          "R": 0.01033,
+          "G": 0.300544,
+          "B": 0.318547,
+          "A": 1.0,
+          "Hex": "1A9599"
+        },
+        "SecondaryColor": {
+          "R": 0.838799,
+          "G": 0.061246,
+          "B": 0.001518,
+          "A": 1.0,
+          "Hex": "EC4605"
+        },
+        "TertiaryColor": {
+          "R": 0.838799,
+          "G": 0.061246,
+          "B": 0.001518,
+          "A": 1.0,
+          "Hex": "EC4605"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Circuit Samurais",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.samurais"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset11": {
+        "PrimaryColor": {
+          "R": 0.991102,
+          "G": 0.022174,
+          "B": 0.752942,
+          "A": 1.0,
+          "Hex": "FE29E1"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.708376,
+          "B": 0.006512,
+          "A": 1.0,
+          "Hex": "FFDB13"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.708376,
+          "B": 0.006512,
+          "A": 1.0,
+          "Hex": "FFDB13"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Pixel Punks",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.pixelpunks"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset12": {
+        "PrimaryColor": {
+          "R": 0.783538,
+          "G": 0.025187,
+          "B": 0.028426,
+          "A": 1.0,
+          "Hex": "E52C2F"
+        },
+        "SecondaryColor": {
+          "R": 0.23074,
+          "G": 0.278894,
+          "B": 0.318547,
+          "A": 1.0,
+          "Hex": "849099"
+        },
+        "TertiaryColor": {
+          "R": 0.23074,
+          "G": 0.278894,
+          "B": 0.318547,
+          "A": 1.0,
+          "Hex": "849099"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Ironclad Predators",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.predators"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset13": {
+        "PrimaryColor": {
+          "R": 0.042311,
+          "G": 0.022174,
+          "B": 0.238398,
+          "A": 1.0,
+          "Hex": "3A2986"
+        },
+        "SecondaryColor": {
+          "R": 0.155926,
+          "G": 0.846873,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "6EEDFF"
+        },
+        "TertiaryColor": {
+          "R": 0.155926,
+          "G": 0.846873,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "6EEDFF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Excelsior",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.excelsior"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset14": {
+        "PrimaryColor": {
+          "R": 0.059511,
+          "G": 0.152926,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "456D00"
+        },
+        "SecondaryColor": {
+          "R": 0.238398,
+          "G": 0.250158,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "868900"
+        },
+        "TertiaryColor": {
+          "R": 0.238398,
+          "G": 0.250158,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "868900"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Camouflage",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.camo"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorCamoA"
+      },
+      "ColorPreset15": {
+        "PrimaryColor": {
+          "R": 0.846873,
+          "G": 0.01096,
+          "B": 0.01096,
+          "A": 1.0,
+          "Hex": "ED1B1B"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.672443,
+          "B": 0.025187,
+          "A": 1.0,
+          "Hex": "FFD62C"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.672443,
+          "B": 0.025187,
+          "A": 1.0,
+          "Hex": "FFD62C"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Flames",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.flames"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorFlamesA"
+      },
+      "ColorPreset16": {
+        "PrimaryColor": {
+          "R": 0.863157,
+          "G": 0.116971,
+          "B": 0.009134,
+          "A": 1.0,
+          "Hex": "EF6018"
+        },
+        "SecondaryColor": {
+          "R": 0.019382,
+          "G": 0.017642,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "262424"
+        },
+        "TertiaryColor": {
+          "R": 0.019382,
+          "G": 0.017642,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "262424"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Tiger",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.tiger"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorTigerA"
+      },
+      "ColorPreset17": {
+        "PrimaryColor": {
+          "R": 0.035601,
+          "G": 0.603828,
+          "B": 0.871367,
+          "A": 1.0,
+          "Hex": "35CCF0"
+        },
+        "SecondaryColor": {
+          "R": 0.003347,
+          "G": 0.246201,
+          "B": 0.056128,
+          "A": 1.0,
+          "Hex": "0B8843"
+        },
+        "TertiaryColor": {
+          "R": 0.003347,
+          "G": 0.246201,
+          "B": 0.056128,
+          "A": 1.0,
+          "Hex": "0B8843"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Club Member",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.clubcomplete"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset18": {
+        "PrimaryColor": {
+          "R": 0.879623,
+          "G": 0.473532,
+          "B": 0.038204,
+          "A": 1.0,
+          "Hex": "F1B737"
+        },
+        "SecondaryColor": {
+          "R": 0.048172,
+          "G": 0.223228,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "3E824A"
+        },
+        "TertiaryColor": {
+          "R": 0.048172,
+          "G": 0.223228,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "3E824A"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Secret Corn",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [
+          "color.secretcorn"
+        ],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset19": {
+        "PrimaryColor": {
+          "R": 0.938686,
+          "G": 0.019382,
+          "B": 0.223228,
+          "A": 1.0,
+          "Hex": "F82682"
+        },
+        "SecondaryColor": {
+          "R": 0.991102,
+          "G": 0.491021,
+          "B": 0.030713,
+          "A": 1.0,
+          "Hex": "FEBA31"
+        },
+        "TertiaryColor": {
+          "R": 0.991102,
+          "G": 0.491021,
+          "B": 0.030713,
+          "A": 1.0,
+          "Hex": "FEBA31"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Breakaway",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSunBurst": {
+        "PrimaryColor": {
+          "R": 0.846873,
+          "G": 0.381326,
+          "B": 0.042311,
+          "A": 1.0,
+          "Hex": "EDA63A"
+        },
+        "SecondaryColor": {
+          "R": 0.799103,
+          "G": 0.102242,
+          "B": 0.039546,
+          "A": 1.0,
+          "Hex": "E75A38"
+        },
+        "TertiaryColor": {
+          "R": 0.799103,
+          "G": 0.102242,
+          "B": 0.039546,
+          "A": 1.0,
+          "Hex": "E75A38"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Sunny Day",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetQuantumCleats": {
+        "PrimaryColor": {
+          "R": 0.08022,
+          "G": 0.258183,
+          "B": 0.799103,
+          "A": 1.0,
+          "Hex": "508BE7"
+        },
+        "SecondaryColor": {
+          "R": 0.250158,
+          "G": 0.502887,
+          "B": 0.124772,
+          "A": 1.0,
+          "Hex": "89BC63"
+        },
+        "TertiaryColor": {
+          "R": 0.250158,
+          "G": 0.502887,
+          "B": 0.124772,
+          "A": 1.0,
+          "Hex": "89BC63"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Fresh Turf",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLightning": {
+        "PrimaryColor": {
+          "R": 0.005182,
+          "G": 0.059511,
+          "B": 0.084376,
+          "A": 1.0,
+          "Hex": "104552"
+        },
+        "SecondaryColor": {
+          "R": 0.672443,
+          "G": 0.973446,
+          "B": 0.078187,
+          "A": 1.0,
+          "Hex": "D6FC4F"
+        },
+        "TertiaryColor": {
+          "R": 0.672443,
+          "G": 0.973445,
+          "B": 0.078187,
+          "A": 1.0,
+          "Hex": "D6FC4F"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Lightning",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSparkle": {
+        "PrimaryColor": {
+          "R": 0.003035,
+          "G": 0.124772,
+          "B": 0.417885,
+          "A": 1.0,
+          "Hex": "0A63AD"
+        },
+        "SecondaryColor": {
+          "R": 0.679543,
+          "G": 0.799103,
+          "B": 0.428691,
+          "A": 1.0,
+          "Hex": "D7E7AF"
+        },
+        "TertiaryColor": {
+          "R": 0.679542,
+          "G": 0.799103,
+          "B": 0.423268,
+          "A": 1.0,
+          "Hex": "D7E7AE"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Sparkle",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetButter": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.904661,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "FFF448"
+        },
+        "SecondaryColor": {
+          "R": 0.456411,
+          "G": 0.238398,
+          "B": 0.001214,
+          "A": 1.0,
+          "Hex": "B48604"
+        },
+        "TertiaryColor": {
+          "R": 0.456411,
+          "G": 0.238398,
+          "B": 0.001214,
+          "A": 1.0,
+          "Hex": "B48604"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Butter",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCircuit": {
+        "PrimaryColor": {
+          "R": 0.135633,
+          "G": 0.097587,
+          "B": 0.53948,
+          "A": 1.0,
+          "Hex": "6758C2"
+        },
+        "SecondaryColor": {
+          "R": 0.401978,
+          "G": 0.396755,
+          "B": 0.730461,
+          "A": 1.0,
+          "Hex": "AAA9DE"
+        },
+        "TertiaryColor": {
+          "R": 0.401978,
+          "G": 0.396755,
+          "B": 0.730461,
+          "A": 1.0,
+          "Hex": "AAA9DE"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Circuit",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetHush": {
+        "PrimaryColor": {
+          "R": 0.205079,
+          "G": 0.011612,
+          "B": 0.323143,
+          "A": 1.0,
+          "Hex": "7D1C9A"
+        },
+        "SecondaryColor": {
+          "R": 0.114435,
+          "G": 0.439657,
+          "B": 0.991102,
+          "A": 1.0,
+          "Hex": "5FB1FE"
+        },
+        "TertiaryColor": {
+          "R": 0.114435,
+          "G": 0.439657,
+          "B": 0.991102,
+          "A": 1.0,
+          "Hex": "5FB1FE"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Hush",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLiquidSmoke": {
+        "PrimaryColor": {
+          "R": 0.006995,
+          "G": 0.006995,
+          "B": 0.008023,
+          "A": 1.0,
+          "Hex": "141416"
+        },
+        "SecondaryColor": {
+          "R": 0.088656,
+          "G": 0.0,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "5400F9"
+        },
+        "TertiaryColor": {
+          "R": 0.088656,
+          "G": 0.0,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "5400F9"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Liquid Smoke",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPolkaDot": {
+        "PrimaryColor": {
+          "R": 0.026241,
+          "G": 0.313989,
+          "B": 0.610496,
+          "A": 1.0,
+          "Hex": "2D98CD"
+        },
+        "SecondaryColor": {
+          "R": 0.651406,
+          "G": 0.030713,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "D33124"
+        },
+        "TertiaryColor": {
+          "R": 0.651406,
+          "G": 0.030713,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "D33124"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Polka Dox",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSamurai": {
+        "PrimaryColor": {
+          "R": 0.031896,
+          "G": 0.059511,
+          "B": 0.144128,
+          "A": 1.0,
+          "Hex": "32456A"
+        },
+        "SecondaryColor": {
+          "R": 0.291771,
+          "G": 0.205079,
+          "B": 0.097587,
+          "A": 1.0,
+          "Hex": "937D58"
+        },
+        "TertiaryColor": {
+          "R": 0.291771,
+          "G": 0.205079,
+          "B": 0.097587,
+          "A": 1.0,
+          "Hex": "937D58"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Bushido",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSixFootTurkey": {
+        "PrimaryColor": {
+          "R": 0.035601,
+          "G": 0.47932,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "35B83F"
+        },
+        "SecondaryColor": {
+          "R": 0.361307,
+          "G": 0.019382,
+          "B": 0.028426,
+          "A": 1.0,
+          "Hex": "A2262F"
+        },
+        "TertiaryColor": {
+          "R": 0.361307,
+          "G": 0.019382,
+          "B": 0.028426,
+          "A": 1.0,
+          "Hex": "A2262F"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.026241,
+          "A": 1.0,
+          "Hex": "FF002D"
+        },
+        "DisplayName": "Six Foot Turkey",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetThunderborn": {
+        "PrimaryColor": {
+          "R": 0.004391,
+          "G": 0.066626,
+          "B": 0.059511,
+          "A": 1.0,
+          "Hex": "0E4945"
+        },
+        "SecondaryColor": {
+          "R": 0.009134,
+          "G": 0.637597,
+          "B": 0.679543,
+          "A": 1.0,
+          "Hex": "18D1D7"
+        },
+        "TertiaryColor": {
+          "R": 0.009134,
+          "G": 0.637597,
+          "B": 0.679543,
+          "A": 1.0,
+          "Hex": "18D1D7"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Thunderborn",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetTriHard": {
+        "PrimaryColor": {
+          "R": 0.473532,
+          "G": 0.672443,
+          "B": 0.009721,
+          "A": 1.0,
+          "Hex": "B7D619"
+        },
+        "SecondaryColor": {
+          "R": 0.162029,
+          "G": 0.006995,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "7014F9"
+        },
+        "TertiaryColor": {
+          "R": 0.162029,
+          "G": 0.006995,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "7014F9"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Rush",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCrownlink": {
+        "PrimaryColor": {
+          "R": 0.022174,
+          "G": 0.005182,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "29103C"
+        },
+        "SecondaryColor": {
+          "R": 0.991102,
+          "G": 0.473532,
+          "B": 0.05448,
+          "A": 1.0,
+          "Hex": "FEB742"
+        },
+        "TertiaryColor": {
+          "R": 0.991102,
+          "G": 0.473532,
+          "B": 0.05448,
+          "A": 1.0,
+          "Hex": "FEB742"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Crownlink",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetConstructionTape": {
+        "PrimaryColor": {
+          "R": 0.879623,
+          "G": 0.215861,
+          "B": 0.009134,
+          "A": 1.0,
+          "Hex": "F18018"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.55834,
+          "B": 0.0185,
+          "A": 1.0,
+          "Hex": "FFC525"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.55834,
+          "B": 0.0185,
+          "A": 1.0,
+          "Hex": "FFC525"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Construction Tape",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetDeVault": {
+        "PrimaryColor": {
+          "R": 0.076185,
+          "G": 0.013702,
+          "B": 0.066626,
+          "A": 1.0,
+          "Hex": "4E1F49"
+        },
+        "SecondaryColor": {
+          "R": 0.863157,
+          "G": 0.012983,
+          "B": 0.14996,
+          "A": 1.0,
+          "Hex": "EF1E6C"
+        },
+        "TertiaryColor": {
+          "R": 0.863157,
+          "G": 0.012983,
+          "B": 0.14996,
+          "A": 1.0,
+          "Hex": "EF1E6C"
+        },
+        "EmissiveColor": {
+          "R": 0.904661,
+          "G": 0.921582,
+          "B": 0.135633,
+          "A": 1.0,
+          "Hex": "F4F667"
+        },
+        "DisplayName": "Color: DeVault",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetWarning": {
+        "PrimaryColor": {
+          "R": 0.01033,
+          "G": 0.012286,
+          "B": 0.011612,
+          "A": 1.0,
+          "Hex": "1A1D1C"
+        },
+        "SecondaryColor": {
+          "R": 0.745404,
+          "G": 0.577581,
+          "B": 0.009134,
+          "A": 1.0,
+          "Hex": "E0C818"
+        },
+        "TertiaryColor": {
+          "R": 0.745404,
+          "G": 0.577581,
+          "B": 0.009134,
+          "A": 1.0,
+          "Hex": "E0C818"
+        },
+        "EmissiveColor": {
+          "R": 0.991102,
+          "G": 1.0,
+          "B": 0.124772,
+          "A": 1.0,
+          "Hex": "FEFF63"
+        },
+        "DisplayName": "Warning",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset3DMovie": {
+        "PrimaryColor": {
+          "R": 0.412543,
+          "G": 0.008568,
+          "B": 0.012983,
+          "A": 1.0,
+          "Hex": "AC171E"
+        },
+        "SecondaryColor": {
+          "R": 0.017642,
+          "G": 0.327778,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "249BFF"
+        },
+        "TertiaryColor": {
+          "R": 0.017642,
+          "G": 0.327778,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "249BFF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "3D Movie",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetGrrreat": {
+        "PrimaryColor": {
+          "R": 0.752942,
+          "G": 0.155926,
+          "B": 0.007499,
+          "A": 1.0,
+          "Hex": "E16E15"
+        },
+        "SecondaryColor": {
+          "R": 0.007499,
+          "G": 0.043735,
+          "B": 0.138432,
+          "A": 1.0,
+          "Hex": "153B68"
+        },
+        "TertiaryColor": {
+          "R": 0.007499,
+          "G": 0.043735,
+          "B": 0.138432,
+          "A": 1.0,
+          "Hex": "153B68"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Grrreat!",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSqueak": {
+        "PrimaryColor": {
+          "R": 0.745404,
+          "G": 0.48515,
+          "B": 0.008568,
+          "A": 1.0,
+          "Hex": "E0B917"
+        },
+        "SecondaryColor": {
+          "R": 0.093059,
+          "G": 0.003347,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "560BB7"
+        },
+        "TertiaryColor": {
+          "R": 0.093059,
+          "G": 0.003347,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "560BB7"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Squeak",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLucky": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.223228,
+          "B": 0.004777,
+          "A": 1.0,
+          "Hex": "00820F"
+        },
+        "SecondaryColor": {
+          "R": 0.783538,
+          "G": 0.138432,
+          "B": 0.003677,
+          "A": 1.0,
+          "Hex": "E5680C"
+        },
+        "TertiaryColor": {
+          "R": 0.783538,
+          "G": 0.138432,
+          "B": 0.003677,
+          "A": 1.0,
+          "Hex": "E5680C"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Lucky",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLavendar": {
+        "PrimaryColor": {
+          "R": 0.417885,
+          "G": 0.258183,
+          "B": 0.686685,
+          "A": 1.0,
+          "Hex": "AD8BD8"
+        },
+        "SecondaryColor": {
+          "R": 0.084376,
+          "G": 0.168269,
+          "B": 0.072272,
+          "A": 1.0,
+          "Hex": "52724C"
+        },
+        "TertiaryColor": {
+          "R": 0.084376,
+          "G": 0.168269,
+          "B": 0.072272,
+          "A": 1.0,
+          "Hex": "52724C"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Lavendar",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPonyClub": {
+        "PrimaryColor": {
+          "R": 0.83077,
+          "G": 0.006049,
+          "B": 0.396755,
+          "A": 1.0,
+          "Hex": "EB12A9"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.262251,
+          "B": 0.737911,
+          "A": 1.0,
+          "Hex": "FF8CDF"
+        },
+        "TertiaryColor": {
+          "R": 0.274677,
+          "G": 0.015209,
+          "B": 0.181164,
+          "A": 1.0,
+          "Hex": "8F2176"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.665387,
+          "A": 1.0,
+          "Hex": "FF00D5"
+        },
+        "DisplayName": "Pony Club",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMaizeCraze": {
+        "PrimaryColor": {
+          "R": 0.06301,
+          "G": 0.234551,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "478500"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.401978,
+          "B": 0.000304,
+          "A": 1.0,
+          "Hex": "FFAA01"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.401978,
+          "B": 0.000304,
+          "A": 1.0,
+          "Hex": "FFAA01"
+        },
+        "EmissiveColor": {
+          "R": 0.887923,
+          "G": 0.53948,
+          "B": 0.006049,
+          "A": 1.0,
+          "Hex": "F2C212"
+        },
+        "DisplayName": "Color: Maize Craze",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCybersutra": {
+        "PrimaryColor": {
+          "R": 0.934245,
+          "G": 0.934245,
+          "B": 0.934245,
+          "A": 1.0,
+          "Hex": "F8F8F8"
+        },
+        "SecondaryColor": {
+          "R": 0.381326,
+          "G": 0.01033,
+          "B": 0.01033,
+          "A": 1.0,
+          "Hex": "A61A1A"
+        },
+        "TertiaryColor": {
+          "R": 0.381326,
+          "G": 0.01033,
+          "B": 0.01033,
+          "A": 1.0,
+          "Hex": "A61A1A"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "DisplayName": "Color: Cybersutra",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetEventPurrizon": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "000000"
+        },
+        "SecondaryColor": {
+          "R": 0.83077,
+          "G": 0.913099,
+          "B": 0.921582,
+          "A": 1.0,
+          "Hex": "EBF5F6"
+        },
+        "TertiaryColor": {
+          "R": 0.814847,
+          "G": 0.896269,
+          "B": 0.904661,
+          "A": 1.0,
+          "Hex": "E9F3F4"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Event Purrizon",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetEventPurrizonEmissive": {
+        "PrimaryColor": {
+          "R": 0.000304,
+          "G": 0.000304,
+          "B": 0.000304,
+          "A": 1.0,
+          "Hex": "010101"
+        },
+        "SecondaryColor": {
+          "R": 0.83077,
+          "G": 0.913099,
+          "B": 0.921582,
+          "A": 1.0,
+          "Hex": "EBF5F6"
+        },
+        "TertiaryColor": {
+          "R": 0.83077,
+          "G": 0.913099,
+          "B": 0.921582,
+          "A": 1.0,
+          "Hex": "EBF5F6"
+        },
+        "EmissiveColor": {
+          "R": 0.179058,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "75FF00"
+        },
+        "DisplayName": "Color: Event Purrizon ",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSpectralNet": {
+        "PrimaryColor": {
+          "R": 0.14996,
+          "G": 0.049707,
+          "B": 0.250158,
+          "A": 1.0,
+          "Hex": "6C3F89"
+        },
+        "SecondaryColor": {
+          "R": 0.14996,
+          "G": 0.291771,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "6C93FF"
+        },
+        "TertiaryColor": {
+          "R": 0.14996,
+          "G": 0.291771,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "6C93FF"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.396755,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "FFA9ED"
+        },
+        "DisplayName": "Color: Spectral Net",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetFlux": {
+        "PrimaryColor": {
+          "R": 0.039546,
+          "G": 0.099899,
+          "B": 0.401978,
+          "A": 1.0,
+          "Hex": "3859AA"
+        },
+        "SecondaryColor": {
+          "R": 0.737911,
+          "G": 0.947307,
+          "B": 0.095307,
+          "A": 1.0,
+          "Hex": "DFF957"
+        },
+        "TertiaryColor": {
+          "R": 0.737911,
+          "G": 0.947307,
+          "B": 0.095307,
+          "A": 1.0,
+          "Hex": "DFF957"
+        },
+        "EmissiveColor": {
+          "R": 0.752942,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "E1FF00"
+        },
+        "DisplayName": "Color:  Flux",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetFlamesEmissive": {
+        "PrimaryColor": {
+          "R": 0.283203,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "910000"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.323143,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF9A00"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.323143,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF9A00"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.29535,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF9400"
+        },
+        "DisplayName": "Color: Flamin",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetRonin": {
+        "PrimaryColor": {
+          "R": 0.008023,
+          "G": 0.049707,
+          "B": 0.274677,
+          "A": 1.0,
+          "Hex": "163F8F"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.445201,
+          "B": 0.027321,
+          "A": 1.0,
+          "Hex": "FFB22E"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.445201,
+          "B": 0.027321,
+          "A": 1.0,
+          "Hex": "FFB22E"
+        },
+        "EmissiveColor": {
+          "R": 0.846873,
+          "G": 0.004777,
+          "B": 0.048172,
+          "A": 1.0,
+          "Hex": "ED0F3E"
+        },
+        "DisplayName": "Color: Ronin",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetAstroThorn": {
+        "PrimaryColor": {
+          "R": 0.132868,
+          "G": 0.296138,
+          "B": 0.093059,
+          "A": 1.0,
+          "Hex": "669456"
+        },
+        "SecondaryColor": {
+          "R": 0.846873,
+          "G": 0.147027,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "ED6B00"
+        },
+        "TertiaryColor": {
+          "R": 0.846873,
+          "G": 0.147027,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "ED6B00"
+        },
+        "EmissiveColor": {
+          "R": 0.982251,
+          "G": 0.210431,
+          "B": 0.07482,
+          "A": 1.0,
+          "Hex": "FD7E4D"
+        },
+        "DisplayName": "Color: Astro Thorn",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetFloralDecay": {
+        "PrimaryColor": {
+          "R": 0.801432,
+          "G": 0.086091,
+          "B": 0.348609,
+          "A": 1.0,
+          "Hex": "E853A0"
+        },
+        "SecondaryColor": {
+          "R": 0.022174,
+          "G": 0.64448,
+          "B": 0.283149,
+          "A": 1.0,
+          "Hex": "29D291"
+        },
+        "TertiaryColor": {
+          "R": 0.022174,
+          "G": 0.64448,
+          "B": 0.283149,
+          "A": 1.0,
+          "Hex": "29D291"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Floral Decay",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetHeartWired": {
+        "PrimaryColor": {
+          "R": 0.191202,
+          "G": 0.0,
+          "B": 0.006512,
+          "A": 1.0,
+          "Hex": "790013"
+        },
+        "SecondaryColor": {
+          "R": 0.171441,
+          "G": 0.991102,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "73FE3F"
+        },
+        "TertiaryColor": {
+          "R": 0.171441,
+          "G": 0.991102,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "73FE3F"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Heart Wired",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStarMarked": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.005367,
+          "B": 0.038411,
+          "A": 1.0,
+          "Hex": "001037"
+        },
+        "SecondaryColor": {
+          "R": 0.991102,
+          "G": 0.768151,
+          "B": 0.198069,
+          "A": 1.0,
+          "Hex": "FEE37B"
+        },
+        "TertiaryColor": {
+          "R": 0.991102,
+          "G": 0.768151,
+          "B": 0.198069,
+          "A": 1.0,
+          "Hex": "FEE37B"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Star Marked",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStarMarkedEmissive": {
+        "PrimaryColor": {
+          "R": 0.000911,
+          "G": 0.002732,
+          "B": 0.015209,
+          "A": 1.0,
+          "Hex": "030921"
+        },
+        "SecondaryColor": {
+          "R": 0.493207,
+          "G": 0.704743,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BBDBFF"
+        },
+        "TertiaryColor": {
+          "R": 0.491021,
+          "G": 0.701102,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BADAFF"
+        },
+        "EmissiveColor": {
+          "R": 0.067001,
+          "G": 0.621955,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "49CFFF"
+        },
+        "DisplayName": "Color: Star Mark 2",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStealthMode": {
+        "PrimaryColor": {
+          "R": 0.028426,
+          "G": 0.027321,
+          "B": 0.033105,
+          "A": 1.0,
+          "Hex": "2F2E33"
+        },
+        "SecondaryColor": {
+          "R": 0.007499,
+          "G": 0.007499,
+          "B": 0.007499,
+          "A": 1.0,
+          "Hex": "151515"
+        },
+        "TertiaryColor": {
+          "R": 0.007499,
+          "G": 0.007499,
+          "B": 0.007499,
+          "A": 1.0,
+          "Hex": "151515"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Stealth Mode",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetDazzle": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.097587,
+          "B": 0.439657,
+          "A": 1.0,
+          "Hex": "0058B1"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.097587,
+          "B": 0.439657,
+          "A": 1.0,
+          "Hex": "0058B1"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Dazzle",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLockJaw": {
+        "PrimaryColor": {
+          "R": 0.590619,
+          "G": 0.552012,
+          "B": 0.283149,
+          "A": 1.0,
+          "Hex": "CAC491"
+        },
+        "SecondaryColor": {
+          "R": 0.715694,
+          "G": 0.06301,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "DC4724"
+        },
+        "TertiaryColor": {
+          "R": 0.715694,
+          "G": 0.06301,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "DC4724"
+        },
+        "EmissiveColor": {
+          "R": 0.964687,
+          "G": 0.040915,
+          "B": 0.002428,
+          "A": 1.0,
+          "Hex": "FB3908"
+        },
+        "DisplayName": "Color: Lock Jaw",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetVortex": {
+        "PrimaryColor": {
+          "R": 0.428691,
+          "G": 0.597202,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "AFCB55"
+        },
+        "SecondaryColor": {
+          "R": 0.266356,
+          "G": 0.14996,
+          "B": 0.502887,
+          "A": 1.0,
+          "Hex": "8D6CBC"
+        },
+        "TertiaryColor": {
+          "R": 0.266356,
+          "G": 0.14996,
+          "B": 0.502887,
+          "A": 1.0,
+          "Hex": "8D6CBC"
+        },
+        "EmissiveColor": {
+          "R": 0.296138,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "94FF00"
+        },
+        "DisplayName": "Color: Vortex",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetRustGut": {
+        "PrimaryColor": {
+          "R": 0.701102,
+          "G": 0.313989,
+          "B": 0.035601,
+          "A": 1.0,
+          "Hex": "DA9835"
+        },
+        "SecondaryColor": {
+          "R": 0.14996,
+          "G": 0.473532,
+          "B": 0.502887,
+          "A": 1.0,
+          "Hex": "6CB7BC"
+        },
+        "TertiaryColor": {
+          "R": 0.14996,
+          "G": 0.473532,
+          "B": 0.502887,
+          "A": 1.0,
+          "Hex": "6CB7BC"
+        },
+        "EmissiveColor": {
+          "R": 0.502887,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BC00FF"
+        },
+        "DisplayName": "Color: Rust Gut",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSkelotrace": {
+        "PrimaryColor": {
+          "R": 0.939453,
+          "G": 0.811141,
+          "B": 0.7031,
+          "A": 1.0,
+          "Hex": "F9E9DB"
+        },
+        "SecondaryColor": {
+          "R": 0.023153,
+          "G": 0.019382,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "2A2624"
+        },
+        "TertiaryColor": {
+          "R": 0.023153,
+          "G": 0.019382,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "2A2624"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.366253,
+          "B": 0.095307,
+          "A": 1.0,
+          "Hex": "FFA357"
+        },
+        "DisplayName": "Color: Skelotrace",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetWitherwood": {
+        "PrimaryColor": {
+          "R": 0.007499,
+          "G": 0.0185,
+          "B": 0.097587,
+          "A": 1.0,
+          "Hex": "152558"
+        },
+        "SecondaryColor": {
+          "R": 0.046665,
+          "G": 0.048172,
+          "B": 0.05448,
+          "A": 1.0,
+          "Hex": "3D3E42"
+        },
+        "TertiaryColor": {
+          "R": 0.046665,
+          "G": 0.048172,
+          "B": 0.05448,
+          "A": 1.0,
+          "Hex": "3D3E42"
+        },
+        "EmissiveColor": {
+          "R": 0.019382,
+          "G": 0.033105,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "2633FD"
+        },
+        "DisplayName": "Color: Witherwood",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCrimsonLace": {
+        "PrimaryColor": {
+          "R": 0.017642,
+          "G": 0.017642,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "242424"
+        },
+        "SecondaryColor": {
+          "R": 0.258183,
+          "G": 0.013702,
+          "B": 0.013702,
+          "A": 1.0,
+          "Hex": "8B1F1F"
+        },
+        "TertiaryColor": {
+          "R": 0.258183,
+          "G": 0.013702,
+          "B": 0.013702,
+          "A": 1.0,
+          "Hex": "8B1F1F"
+        },
+        "EmissiveColor": {
+          "R": 0.879622,
+          "G": 0.028426,
+          "B": 0.028426,
+          "A": 1.0,
+          "Hex": "F12F2F"
+        },
+        "DisplayName": "Color: Crimson Lace",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetVenomatrix": {
+        "PrimaryColor": {
+          "R": 0.027321,
+          "G": 0.102242,
+          "B": 0.052861,
+          "A": 1.0,
+          "Hex": "2E5A41"
+        },
+        "SecondaryColor": {
+          "R": 0.03434,
+          "G": 0.042311,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "343A3C"
+        },
+        "TertiaryColor": {
+          "R": 0.03434,
+          "G": 0.042311,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "343A3C"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 0.371238,
+          "B": 0.019382,
+          "A": 1.0,
+          "Hex": "00A426"
+        },
+        "DisplayName": "Color: Venomatrix",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetDustGlyph": {
+        "PrimaryColor": {
+          "R": 0.287441,
+          "G": 0.278894,
+          "B": 0.191202,
+          "A": 1.0,
+          "Hex": "929079"
+        },
+        "SecondaryColor": {
+          "R": 0.009721,
+          "G": 0.068478,
+          "B": 0.381326,
+          "A": 1.0,
+          "Hex": "194AA6"
+        },
+        "TertiaryColor": {
+          "R": 0.009721,
+          "G": 0.068478,
+          "B": 0.381326,
+          "A": 1.0,
+          "Hex": "194AA6"
+        },
+        "EmissiveColor": {
+          "R": 0.930111,
+          "G": 0.527115,
+          "B": 0.07036,
+          "A": 1.0,
+          "Hex": "F7C04B"
+        },
+        "DisplayName": "Color: Dust Glyph",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSkelexe": {
+        "PrimaryColor": {
+          "R": 0.887923,
+          "G": 0.806952,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "F2E8FF"
+        },
+        "SecondaryColor": {
+          "R": 0.06301,
+          "G": 0.061246,
+          "B": 0.07036,
+          "A": 1.0,
+          "Hex": "47464B"
+        },
+        "TertiaryColor": {
+          "R": 0.06301,
+          "G": 0.061246,
+          "B": 0.07036,
+          "A": 1.0,
+          "Hex": "47464B"
+        },
+        "EmissiveColor": {
+          "R": 0.03434,
+          "G": 0.930111,
+          "B": 0.219526,
+          "A": 1.0,
+          "Hex": "34F781"
+        },
+        "DisplayName": "Color: Skel.exe",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset76": {
+        "PrimaryColor": {
+          "R": 0.05448,
+          "G": 0.006995,
+          "B": 0.332452,
+          "A": 1.0,
+          "Hex": "42149C"
+        },
+        "SecondaryColor": {
+          "R": 0.001518,
+          "G": 0.502887,
+          "B": 0.564712,
+          "A": 1.0,
+          "Hex": "05BCC6"
+        },
+        "TertiaryColor": {
+          "R": 0.001518,
+          "G": 0.502887,
+          "B": 0.564712,
+          "A": 1.0,
+          "Hex": "05BCC6"
+        },
+        "EmissiveColor": {
+          "R": 0.208372,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "7E00FF"
+        },
+        "DisplayName": "Color: 76",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBoneyard": {
+        "PrimaryColor": {
+          "R": 0.246201,
+          "G": 0.093059,
+          "B": 0.610496,
+          "A": 1.0,
+          "Hex": "8856CD"
+        },
+        "SecondaryColor": {
+          "R": 0.0185,
+          "G": 0.015996,
+          "B": 0.0185,
+          "A": 1.0,
+          "Hex": "252225"
+        },
+        "TertiaryColor": {
+          "R": 0.0185,
+          "G": 0.015996,
+          "B": 0.0185,
+          "A": 1.0,
+          "Hex": "252225"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Boneyard",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetScarlettSnare": {
+        "PrimaryColor": {
+          "R": 0.496933,
+          "G": 0.005605,
+          "B": 0.000607,
+          "A": 1.0,
+          "Hex": "BB1102"
+        },
+        "SecondaryColor": {
+          "R": 0.017642,
+          "G": 0.017642,
+          "B": 0.019382,
+          "A": 1.0,
+          "Hex": "242426"
+        },
+        "TertiaryColor": {
+          "R": 0.017642,
+          "G": 0.017642,
+          "B": 0.019382,
+          "A": 1.0,
+          "Hex": "242426"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Scarlet Snare",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSpookPrint": {
+        "PrimaryColor": {
+          "R": 0.025187,
+          "G": 0.035601,
+          "B": 0.051269,
+          "A": 1.0,
+          "Hex": "2C3540"
+        },
+        "SecondaryColor": {
+          "R": 0.930111,
+          "G": 0.351533,
+          "B": 0.000607,
+          "A": 1.0,
+          "Hex": "F7A002"
+        },
+        "TertiaryColor": {
+          "R": 0.930111,
+          "G": 0.351533,
+          "B": 0.000607,
+          "A": 1.0,
+          "Hex": "F7A002"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Spooky Print",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSprinkleStorm": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.171441,
+          "B": 0.83077,
+          "A": 1.0,
+          "Hex": "FF73EB"
+        },
+        "SecondaryColor": {
+          "R": 0.017642,
+          "G": 0.291771,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "2493ED"
+        },
+        "TertiaryColor": {
+          "R": 0.019382,
+          "G": 0.822786,
+          "B": 0.346704,
+          "A": 1.0,
+          "Hex": "26EA9F"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.254152,
+          "B": 0.930111,
+          "A": 1.0,
+          "Hex": "FF8AF7"
+        },
+        "DisplayName": "Color: Sprinkle Storm",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSkyBurst": {
+        "PrimaryColor": {
+          "R": 0.760525,
+          "G": 0.514918,
+          "B": 0.003035,
+          "A": 1.0,
+          "Hex": "E2BE0A"
+        },
+        "SecondaryColor": {
+          "R": 0.093059,
+          "G": 0.283149,
+          "B": 0.863157,
+          "A": 1.0,
+          "Hex": "5691EF"
+        },
+        "TertiaryColor": {
+          "R": 0.093059,
+          "G": 0.283149,
+          "B": 0.863157,
+          "A": 1.0,
+          "Hex": "5691EF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Sky Burst",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBlitz": {
+        "PrimaryColor": {
+          "R": 0.022917,
+          "G": 0.022917,
+          "B": 0.022917,
+          "A": 1.0,
+          "Hex": "292929"
+        },
+        "SecondaryColor": {
+          "R": 0.009721,
+          "G": 0.723055,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "19DD55"
+        },
+        "TertiaryColor": {
+          "R": 0.009721,
+          "G": 0.723055,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "19DD55"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Blitz",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetAceGrid": {
+        "PrimaryColor": {
+          "R": 0.036889,
+          "G": 0.366253,
+          "B": 0.351533,
+          "A": 1.0,
+          "Hex": "36A3A0"
+        },
+        "SecondaryColor": {
+          "R": 0.846873,
+          "G": 1.0,
+          "B": 0.035601,
+          "A": 1.0,
+          "Hex": "EDFF35"
+        },
+        "TertiaryColor": {
+          "R": 0.846873,
+          "G": 1.0,
+          "B": 0.035601,
+          "A": 1.0,
+          "Hex": "EDFF35"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Ace Grid",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSpark": {
+        "PrimaryColor": {
+          "R": 0.095307,
+          "G": 0.107023,
+          "B": 0.617207,
+          "A": 1.0,
+          "Hex": "575CCE"
+        },
+        "SecondaryColor": {
+          "R": 0.03434,
+          "G": 0.304987,
+          "B": 0.40724,
+          "A": 1.0,
+          "Hex": "3496AB"
+        },
+        "TertiaryColor": {
+          "R": 0.03434,
+          "G": 0.304987,
+          "B": 0.40724,
+          "A": 1.0,
+          "Hex": "3496AB"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetVermidion": {
+        "PrimaryColor": {
+          "R": 0.47932,
+          "G": 0.046665,
+          "B": 0.039546,
+          "A": 1.0,
+          "Hex": "B83D38"
+        },
+        "SecondaryColor": {
+          "R": 0.783538,
+          "G": 0.445201,
+          "B": 0.099899,
+          "A": 1.0,
+          "Hex": "E5B259"
+        },
+        "TertiaryColor": {
+          "R": 0.783538,
+          "G": 0.445201,
+          "B": 0.099899,
+          "A": 1.0,
+          "Hex": "E5B259"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Vermidion",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetVoidMancer": {
+        "PrimaryColor": {
+          "R": 0.059511,
+          "G": 0.01096,
+          "B": 0.250158,
+          "A": 1.0,
+          "Hex": "451B89"
+        },
+        "SecondaryColor": {
+          "R": 0.514918,
+          "G": 0.496933,
+          "B": 0.467784,
+          "A": 1.0,
+          "Hex": "BEBBB6"
+        },
+        "TertiaryColor": {
+          "R": 0.514918,
+          "G": 0.496933,
+          "B": 0.467784,
+          "A": 1.0,
+          "Hex": "BEBBB6"
+        },
+        "EmissiveColor": {
+          "R": 0.822786,
+          "G": 0.017642,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "EA24FF"
+        },
+        "DisplayName": "Color: Void Mancer",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetShatter": {
+        "PrimaryColor": {
+          "R": 0.745404,
+          "G": 0.48515,
+          "B": 0.008568,
+          "A": 1.0,
+          "Hex": "E0B917"
+        },
+        "SecondaryColor": {
+          "R": 0.093059,
+          "G": 0.003347,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "560BB7"
+        },
+        "TertiaryColor": {
+          "R": 0.093059,
+          "G": 0.003347,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "560BB7"
+        },
+        "EmissiveColor": {
+          "R": 0.223228,
+          "G": 0.127438,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "8264FF"
+        },
+        "DisplayName": "Color: Shatter",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetJavelin": {
+        "PrimaryColor": {
+          "R": 0.004391,
+          "G": 0.051269,
+          "B": 0.745404,
+          "A": 1.0,
+          "Hex": "0E40E0"
+        },
+        "SecondaryColor": {
+          "R": 0.863157,
+          "G": 0.009134,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "EF183D"
+        },
+        "TertiaryColor": {
+          "R": 0.863157,
+          "G": 0.009134,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "EF183D"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: Javelin",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetNanoweave": {
+        "PrimaryColor": {
+          "R": 0.048172,
+          "G": 0.048172,
+          "B": 0.043735,
+          "A": 1.0,
+          "Hex": "3E3E3B"
+        },
+        "SecondaryColor": {
+          "R": 0.109462,
+          "G": 0.111932,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "5D5E55"
+        },
+        "TertiaryColor": {
+          "R": 0.109462,
+          "G": 0.111932,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "5D5E55"
+        },
+        "EmissiveColor": {
+          "R": 0.665387,
+          "G": 0.665387,
+          "B": 0.665387,
+          "A": 1.0,
+          "Hex": "D5D5D5"
+        },
+        "DisplayName": "Color: Nanoweave",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetVertigo": {
+        "PrimaryColor": {
+          "R": 0.102242,
+          "G": 0.097587,
+          "B": 0.14996,
+          "A": 1.0,
+          "Hex": "5A586C"
+        },
+        "SecondaryColor": {
+          "R": 0.558341,
+          "G": 0.799103,
+          "B": 0.08022,
+          "A": 1.0,
+          "Hex": "C5E750"
+        },
+        "TertiaryColor": {
+          "R": 0.558341,
+          "G": 0.799103,
+          "B": 0.08022,
+          "A": 1.0,
+          "Hex": "C5E750"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Vertigo",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetVertigo"
+      },
+      "ColorPresetFractaline": {
+        "PrimaryColor": {
+          "R": 0.491021,
+          "G": 0.637597,
+          "B": 0.871367,
+          "A": 1.0,
+          "Hex": "BAD1F0"
+        },
+        "SecondaryColor": {
+          "R": 0.025187,
+          "G": 0.059511,
+          "B": 0.262251,
+          "A": 1.0,
+          "Hex": "2C458C"
+        },
+        "TertiaryColor": {
+          "R": 0.025187,
+          "G": 0.059511,
+          "B": 0.262251,
+          "A": 1.0,
+          "Hex": "2C458C"
+        },
+        "EmissiveColor": {
+          "R": 0.351533,
+          "G": 0.955974,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "A0FAFF"
+        },
+        "DisplayName": "Color: Fractaline",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetFractaline"
+      },
+      "ColorPresetKlausBreaker": {
+        "PrimaryColor": {
+          "R": 0.351533,
+          "G": 0.057805,
+          "B": 0.052861,
+          "A": 1.0,
+          "Hex": "A04441"
+        },
+        "SecondaryColor": {
+          "R": 0.099899,
+          "G": 0.099899,
+          "B": 0.099899,
+          "A": 1.0,
+          "Hex": "595959"
+        },
+        "TertiaryColor": {
+          "R": 0.099899,
+          "G": 0.099899,
+          "B": 0.099899,
+          "A": 1.0,
+          "Hex": "595959"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "DisplayName": "Color: Klaus Breaker",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetKlausBreaker"
+      },
+      "ColorPresetCrimsonGale": {
+        "PrimaryColor": {
+          "R": 0.651406,
+          "G": 0.084376,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "D35248"
+        },
+        "SecondaryColor": {
+          "R": 0.693872,
+          "G": 0.679543,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "D9D7ED"
+        },
+        "TertiaryColor": {
+          "R": 0.658375,
+          "G": 0.679542,
+          "B": 0.791298,
+          "A": 1.0,
+          "Hex": "D4D7E6"
+        },
+        "EmissiveColor": {
+          "R": 0.89627,
+          "G": 0.428691,
+          "B": 0.090842,
+          "A": 1.0,
+          "Hex": "F3AF55"
+        },
+        "DisplayName": "Color: Crimson Gale",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetCrimsonGale"
+      },
+      "ColorPresetPeppermatrix": {
+        "PrimaryColor": {
+          "R": 0.187821,
+          "G": 0.48515,
+          "B": 0.082283,
+          "A": 1.0,
+          "Hex": "78B951"
+        },
+        "SecondaryColor": {
+          "R": 0.456411,
+          "G": 0.07036,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "B44B48"
+        },
+        "TertiaryColor": {
+          "R": 0.456411,
+          "G": 0.07036,
+          "B": 0.064803,
+          "A": 1.0,
+          "Hex": "B44B48"
+        },
+        "EmissiveColor": {
+          "R": 0.205079,
+          "G": 0.879623,
+          "B": 0.283149,
+          "A": 1.0,
+          "Hex": "7DF191"
+        },
+        "DisplayName": "Color: Peppermatrix",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetPeppermatrix"
+      },
+      "ColorPresetCelestique": {
+        "PrimaryColor": {
+          "R": 0.059511,
+          "G": 0.048172,
+          "B": 0.029557,
+          "A": 1.0,
+          "Hex": "453E30"
+        },
+        "SecondaryColor": {
+          "R": 0.571125,
+          "G": 0.072272,
+          "B": 0.06301,
+          "A": 1.0,
+          "Hex": "C74C47"
+        },
+        "TertiaryColor": {
+          "R": 0.571125,
+          "G": 0.072272,
+          "B": 0.06301,
+          "A": 1.0,
+          "Hex": "C74C47"
+        },
+        "EmissiveColor": {
+          "R": 0.737911,
+          "G": 0.078187,
+          "B": 0.014444,
+          "A": 1.0,
+          "Hex": "DF4F20"
+        },
+        "DisplayName": "Color: Celestique",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetCelestique"
+      },
+      "ColorPresetFrostbornHide": {
+        "PrimaryColor": {
+          "R": 0.045186,
+          "G": 0.028426,
+          "B": 0.006049,
+          "A": 1.0,
+          "Hex": "3C2F12"
+        },
+        "SecondaryColor": {
+          "R": 0.201556,
+          "G": 0.144128,
+          "B": 0.052861,
+          "A": 1.0,
+          "Hex": "7C6A41"
+        },
+        "TertiaryColor": {
+          "R": 0.201556,
+          "G": 0.144128,
+          "B": 0.052861,
+          "A": 1.0,
+          "Hex": "7C6A41"
+        },
+        "EmissiveColor": {
+          "R": 0.737911,
+          "G": 0.366253,
+          "B": 0.006512,
+          "A": 1.0,
+          "Hex": "DFA313"
+        },
+        "DisplayName": "Color: Frostborn Hide",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "ColorPresetFrostbornHide"
+      },
+      "ColorPresetCookieCache": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.923241,
+          "B": 0.793468,
+          "A": 1.0,
+          "Hex": "FFF7E7"
+        },
+        "SecondaryColor": {
+          "R": 0.318547,
+          "G": 0.127438,
+          "B": 0.03434,
+          "A": 1.0,
+          "Hex": "996434"
+        },
+        "TertiaryColor": {
+          "R": 0.318547,
+          "G": 0.127438,
+          "B": 0.03434,
+          "A": 1.0,
+          "Hex": "996434"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: CookieCache",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSnowmageddon": {
+        "PrimaryColor": {
+          "R": 0.250158,
+          "G": 0.386429,
+          "B": 0.439657,
+          "A": 1.0,
+          "Hex": "89A7B1"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: Snowmageddon",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetGlowForIt": {
+        "PrimaryColor": {
+          "R": 0.003347,
+          "G": 0.270498,
+          "B": 0.000607,
+          "A": 1.0,
+          "Hex": "0B8E02"
+        },
+        "SecondaryColor": {
+          "R": 0.665387,
+          "G": 0.0,
+          "B": 0.006049,
+          "A": 1.0,
+          "Hex": "D50012"
+        },
+        "TertiaryColor": {
+          "R": 0.760525,
+          "G": 0.508881,
+          "B": 0.000911,
+          "A": 1.0,
+          "Hex": "E2BD03"
+        },
+        "EmissiveColor": {
+          "R": 0.107023,
+          "G": 0.617207,
+          "B": 0.0865,
+          "A": 1.0,
+          "Hex": "5CCE53"
+        },
+        "DisplayName": "Color: Glow For It",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMidnightMistle": {
+        "PrimaryColor": {
+          "R": 0.015209,
+          "G": 0.036889,
+          "B": 0.038204,
+          "A": 1.0,
+          "Hex": "213637"
+        },
+        "SecondaryColor": {
+          "R": 0.045186,
+          "G": 0.144128,
+          "B": 0.122139,
+          "A": 1.0,
+          "Hex": "3C6A62"
+        },
+        "TertiaryColor": {
+          "R": 0.552012,
+          "G": 0.020289,
+          "B": 0.038204,
+          "A": 1.0,
+          "Hex": "C42737"
+        },
+        "EmissiveColor": {
+          "R": 0.520996,
+          "G": 0.391573,
+          "B": 0.107023,
+          "A": 1.0,
+          "Hex": "BFA85C"
+        },
+        "DisplayName": "Color: Midnight Mistle",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMintCondition": {
+        "PrimaryColor": {
+          "R": 0.439657,
+          "G": 0.000304,
+          "B": 0.000911,
+          "A": 1.0,
+          "Hex": "B10103"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Mint Condition",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPlaidToTheBone": {
+        "PrimaryColor": {
+          "R": 0.000304,
+          "G": 0.052861,
+          "B": 0.043735,
+          "A": 1.0,
+          "Hex": "01413B"
+        },
+        "SecondaryColor": {
+          "R": 0.64448,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "D2353D"
+        },
+        "TertiaryColor": {
+          "R": 0.64448,
+          "G": 0.035601,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "D2353D"
+        },
+        "EmissiveColor": {
+          "R": 0.002732,
+          "G": 0.462077,
+          "B": 0.381326,
+          "A": 1.0,
+          "Hex": "09B5A6"
+        },
+        "DisplayName": "Color: Plaid To The Bone",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetFlannelfied": {
+        "PrimaryColor": {
+          "R": 0.005143,
+          "G": 0.064983,
+          "B": 0.309245,
+          "A": 1.0,
+          "Hex": "0F4897"
+        },
+        "SecondaryColor": {
+          "R": 0.651406,
+          "G": 0.658375,
+          "B": 0.693872,
+          "A": 1.0,
+          "Hex": "D3D4D9"
+        },
+        "TertiaryColor": {
+          "R": 0.651406,
+          "G": 0.658375,
+          "B": 0.693872,
+          "A": 1.0,
+          "Hex": "D3D4D9"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Flannelfied",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetKnitHappens": {
+        "PrimaryColor": {
+          "R": 0.000304,
+          "G": 0.132868,
+          "B": 0.270498,
+          "A": 1.0,
+          "Hex": "01668E"
+        },
+        "SecondaryColor": {
+          "R": 0.577581,
+          "G": 0.006512,
+          "B": 0.019382,
+          "A": 1.0,
+          "Hex": "C81326"
+        },
+        "TertiaryColor": {
+          "R": 0.577581,
+          "G": 0.006512,
+          "B": 0.019382,
+          "A": 1.0,
+          "Hex": "C81326"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: Knit Happens",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetDecoluxe": {
+        "PrimaryColor": {
+          "R": 0.262251,
+          "G": 0.001214,
+          "B": 0.002732,
+          "A": 1.0,
+          "Hex": "8C0409"
+        },
+        "SecondaryColor": {
+          "R": 0.597202,
+          "G": 0.381326,
+          "B": 0.107023,
+          "A": 1.0,
+          "Hex": "CBA65C"
+        },
+        "TertiaryColor": {
+          "R": 0.095307,
+          "G": 0.187821,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "57784A"
+        },
+        "EmissiveColor": {
+          "R": 0.191202,
+          "G": 0.439657,
+          "B": 0.138432,
+          "A": 1.0,
+          "Hex": "79B168"
+        },
+        "DisplayName": "Color: Decoluxe",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSnowShadow": {
+        "PrimaryColor": {
+          "R": 0.701102,
+          "G": 0.693872,
+          "B": 0.745404,
+          "A": 1.0,
+          "Hex": "DAD9E0"
+        },
+        "SecondaryColor": {
+          "R": 0.174647,
+          "G": 0.171441,
+          "B": 0.194618,
+          "A": 1.0,
+          "Hex": "74737A"
+        },
+        "TertiaryColor": {
+          "R": 0.022174,
+          "G": 0.022174,
+          "B": 0.024158,
+          "A": 1.0,
+          "Hex": "29292B"
+        },
+        "EmissiveColor": {
+          "R": 0.238398,
+          "G": 0.234551,
+          "B": 0.266356,
+          "A": 1.0,
+          "Hex": "86858D"
+        },
+        "DisplayName": "Color: Snow Shadow",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetIcelock": {
+        "PrimaryColor": {
+          "R": 0.006049,
+          "G": 0.040915,
+          "B": 0.162029,
+          "A": 1.0,
+          "Hex": "123970"
+        },
+        "SecondaryColor": {
+          "R": 0.001821,
+          "G": 0.011612,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "061C3D"
+        },
+        "TertiaryColor": {
+          "R": 0.001821,
+          "G": 0.011612,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "061C3D"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Icelock",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetGingerglaze": {
+        "PrimaryColor": {
+          "R": 0.076185,
+          "G": 0.03434,
+          "B": 0.013702,
+          "A": 1.0,
+          "Hex": "4E341F"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 0.973445,
+          "A": 1.0,
+          "Hex": "FFFFFC"
+        },
+        "DisplayName": "Color: Gingerglaze",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCeresCobs": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.672443,
+          "B": 0.025187,
+          "A": 1.0,
+          "Hex": "FFD62C"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.984,
+          "A": 1.0,
+          "Hex": "00FFFE"
+        },
+        "DisplayName": "Color: Ceres Cobs",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStriker": {
+        "PrimaryColor": {
+          "R": 0.165132,
+          "G": 0.074214,
+          "B": 0.913099,
+          "A": 1.0,
+          "Hex": "714DF5"
+        },
+        "SecondaryColor": {
+          "R": 0.887923,
+          "G": 0.205079,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "F27DFF"
+        },
+        "TertiaryColor": {
+          "R": 0.030713,
+          "G": 0.038204,
+          "B": 0.059511,
+          "A": 1.0,
+          "Hex": "313745"
+        },
+        "EmissiveColor": {
+          "R": 0.982251,
+          "G": 0.38643,
+          "B": 0.03434,
+          "A": 1.0,
+          "Hex": "FDA734"
+        },
+        "DisplayName": "Color: Striker",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetAzurite": {
+        "PrimaryColor": {
+          "R": 0.015209,
+          "G": 0.090842,
+          "B": 0.3564,
+          "A": 1.0,
+          "Hex": "2155A1"
+        },
+        "SecondaryColor": {
+          "R": 0.814847,
+          "G": 0.445201,
+          "B": 0.093059,
+          "A": 1.0,
+          "Hex": "E9B256"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.705399,
+          "B": 0.120443,
+          "A": 1.0,
+          "Hex": "FFDB61"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.701102,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFDA00"
+        },
+        "DisplayName": "Color: Slip Stream",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPixelGrind": {
+        "PrimaryColor": {
+          "R": 0.313989,
+          "G": 0.042311,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "983AED"
+        },
+        "SecondaryColor": {
+          "R": 0.467784,
+          "G": 0.846873,
+          "B": 0.0865,
+          "A": 1.0,
+          "Hex": "B6ED53"
+        },
+        "TertiaryColor": {
+          "R": 0.059511,
+          "G": 0.194618,
+          "B": 0.597202,
+          "A": 1.0,
+          "Hex": "457ACB"
+        },
+        "EmissiveColor": {
+          "R": 0.283149,
+          "G": 0.0,
+          "B": 0.846873,
+          "A": 1.0,
+          "Hex": "9100ED"
+        },
+        "DisplayName": "Color: Pixel Grind",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPieOneer": {
+        "PrimaryColor": {
+          "R": 0.617207,
+          "G": 0.084376,
+          "B": 0.013702,
+          "A": 1.0,
+          "Hex": "CE521F"
+        },
+        "SecondaryColor": {
+          "R": 0.938686,
+          "G": 0.921582,
+          "B": 0.545725,
+          "A": 1.0,
+          "Hex": "F8F6C3"
+        },
+        "TertiaryColor": {
+          "R": 0.938686,
+          "G": 0.921582,
+          "B": 0.545725,
+          "A": 1.0,
+          "Hex": "F8F6C3"
+        },
+        "EmissiveColor": {
+          "R": 0.074214,
+          "G": 0.904661,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "4DF400"
+        },
+        "DisplayName": "Color: Pie-Oneer",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCyberpelt": {
+        "PrimaryColor": {
+          "R": 0.456411,
+          "G": 0.296138,
+          "B": 0.147027,
+          "A": 1.0,
+          "Hex": "B4946B"
+        },
+        "SecondaryColor": {
+          "R": 0.016807,
+          "G": 0.012983,
+          "B": 0.015996,
+          "A": 1.0,
+          "Hex": "231E22"
+        },
+        "TertiaryColor": {
+          "R": 0.016807,
+          "G": 0.012983,
+          "B": 0.015996,
+          "A": 1.0,
+          "Hex": "231E22"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.401978,
+          "A": 1.0,
+          "Hex": "00FFAA"
+        },
+        "DisplayName": "Color: Cyberpelt",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMocha": {
+        "PrimaryColor": {
+          "R": 0.039546,
+          "G": 0.01033,
+          "B": 0.006049,
+          "A": 1.0,
+          "Hex": "381A12"
+        },
+        "SecondaryColor": {
+          "R": 0.274677,
+          "G": 0.119538,
+          "B": 0.06301,
+          "A": 1.0,
+          "Hex": "8F6147"
+        },
+        "TertiaryColor": {
+          "R": 0.274677,
+          "G": 0.119538,
+          "B": 0.06301,
+          "A": 1.0,
+          "Hex": "8F6147"
+        },
+        "EmissiveColor": {
+          "R": 0.822786,
+          "G": 0.791298,
+          "B": 0.715694,
+          "A": 1.0,
+          "Hex": "EAE6DC"
+        },
+        "DisplayName": "Color: Mocha",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPolaris": {
+        "PrimaryColor": {
+          "R": 0.029557,
+          "G": 0.097587,
+          "B": 0.300544,
+          "A": 1.0,
+          "Hex": "305895"
+        },
+        "SecondaryColor": {
+          "R": 0.597202,
+          "G": 0.637597,
+          "B": 0.752942,
+          "A": 1.0,
+          "Hex": "CBD1E1"
+        },
+        "TertiaryColor": {
+          "R": 0.947307,
+          "G": 0.679543,
+          "B": 0.141263,
+          "A": 1.0,
+          "Hex": "F9D769"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.527115,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "FFC03F"
+        },
+        "DisplayName": "Color: Polaris",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPreset8BitReaper": {
+        "PrimaryColor": {
+          "R": 0.01033,
+          "G": 0.006049,
+          "B": 0.015996,
+          "A": 1.0,
+          "Hex": "1A1222"
+        },
+        "SecondaryColor": {
+          "R": 0.887923,
+          "G": 0.057805,
+          "B": 0.730461,
+          "A": 1.0,
+          "Hex": "F244DE"
+        },
+        "TertiaryColor": {
+          "R": 0.887923,
+          "G": 0.057805,
+          "B": 0.730461,
+          "A": 1.0,
+          "Hex": "F244DE"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.47932,
+          "B": 0.048172,
+          "A": 1.0,
+          "Hex": "FFB83E"
+        },
+        "DisplayName": "Color: 8-Bit Reaper",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetFaceFaceHearts": {
+        "PrimaryColor": {
+          "R": 0.822786,
+          "G": 0.371238,
+          "B": 0.584079,
+          "A": 1.0,
+          "Hex": "EAA4C9"
+        },
+        "SecondaryColor": {
+          "R": 0.973446,
+          "G": 0.381326,
+          "B": 0.201556,
+          "A": 1.0,
+          "Hex": "FCA67C"
+        },
+        "TertiaryColor": {
+          "R": 0.238398,
+          "G": 0.930111,
+          "B": 0.278894,
+          "A": 1.0,
+          "Hex": "86F790"
+        },
+        "EmissiveColor": {
+          "R": 0.223228,
+          "G": 0.768151,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "82E3F9"
+        },
+        "DisplayName": "Color: Faceface <3",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLoopyHearts": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.434154,
+          "B": 0.679543,
+          "A": 1.0,
+          "Hex": "FFB0D7"
+        },
+        "SecondaryColor": {
+          "R": 0.318547,
+          "G": 0.0,
+          "B": 0.006512,
+          "A": 1.0,
+          "Hex": "990013"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.434154,
+          "B": 0.679543,
+          "A": 1.0,
+          "Hex": "FFB0D7"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.097587,
+          "B": 0.564712,
+          "A": 1.0,
+          "Hex": "FF58C6"
+        },
+        "DisplayName": "Color: Loopy Love",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSplatter": {
+        "PrimaryColor": {
+          "R": 0.012424,
+          "G": 0.955078,
+          "B": 0.065458,
+          "A": 1.0,
+          "Hex": "1DFA48"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.06301,
+          "B": 0.584079,
+          "A": 1.0,
+          "Hex": "0047C9"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.06301,
+          "B": 0.584079,
+          "A": 1.0,
+          "Hex": "0047C9"
+        },
+        "EmissiveColor": {
+          "R": 0.391678,
+          "G": 0.130859,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "A865FF"
+        },
+        "DisplayName": "Color: Splatter",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBurgerTime": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.116971,
+          "B": 0.723055,
+          "A": 1.0,
+          "Hex": "0060DD"
+        },
+        "SecondaryColor": {
+          "R": 0.942057,
+          "G": 0.555455,
+          "B": 0.049679,
+          "A": 1.0,
+          "Hex": "F9C53F"
+        },
+        "TertiaryColor": {
+          "R": 0.283149,
+          "G": 0.116971,
+          "B": 0.006995,
+          "A": 1.0,
+          "Hex": "916014"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: Order Up",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCheckmate": {
+        "PrimaryColor": {
+          "R": 0.879623,
+          "G": 0.871367,
+          "B": 0.89627,
+          "A": 1.0,
+          "Hex": "F1F0F3"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.072272,
+          "B": 0.026241,
+          "A": 1.0,
+          "Hex": "004C2D"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.072272,
+          "B": 0.026241,
+          "A": 1.0,
+          "Hex": "004C2D"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Checkmate",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMondrian": {
+        "PrimaryColor": {
+          "R": 0.015996,
+          "G": 0.015996,
+          "B": 0.015996,
+          "A": 1.0,
+          "Hex": "222222"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.05448,
+          "B": 0.887923,
+          "A": 1.0,
+          "Hex": "0042F2"
+        },
+        "TertiaryColor": {
+          "R": 0.887923,
+          "G": 0.0,
+          "B": 0.005663,
+          "A": 1.0,
+          "Hex": "F20011"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.665387,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFD500"
+        },
+        "DisplayName": "Color: De Style",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLionDance": {
+        "PrimaryColor": {
+          "R": 0.799103,
+          "G": 0.039546,
+          "B": 0.039546,
+          "A": 1.0,
+          "Hex": "E73838"
+        },
+        "SecondaryColor": {
+          "R": 0.89627,
+          "G": 0.401978,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "F3AA3C"
+        },
+        "TertiaryColor": {
+          "R": 0.89627,
+          "G": 0.401978,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "F3AA3C"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.049707,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "FF3F3F"
+        },
+        "DisplayName": "Color: Lion Dance",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetODOneYear": {
+        "PrimaryColor": {
+          "R": 0.745404,
+          "G": 0.768151,
+          "B": 0.822786,
+          "A": 1.0,
+          "Hex": "E0E3EA"
+        },
+        "SecondaryColor": {
+          "R": 0.242281,
+          "G": 0.011612,
+          "B": 0.53948,
+          "A": 1.0,
+          "Hex": "871CC2"
+        },
+        "TertiaryColor": {
+          "R": 0.242281,
+          "G": 0.011612,
+          "B": 0.53948,
+          "A": 1.0,
+          "Hex": "871CC2"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Orion Ring",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetODOneYearEmissive": {
+        "PrimaryColor": {
+          "R": 0.242281,
+          "G": 0.011612,
+          "B": 0.53948,
+          "A": 1.0,
+          "Hex": "871CC2"
+        },
+        "SecondaryColor": {
+          "R": 0.066626,
+          "G": 0.623961,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "49CFFF"
+        },
+        "TertiaryColor": {
+          "R": 0.066626,
+          "G": 0.623961,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "49CFFF"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: Orion Ring Emissive",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSakura": {
+        "PrimaryColor": {
+          "R": 0.016807,
+          "G": 0.417885,
+          "B": 0.381326,
+          "A": 1.0,
+          "Hex": "23ADA6"
+        },
+        "SecondaryColor": {
+          "R": 0.982251,
+          "G": 0.423268,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FDAEFF"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.238398,
+          "B": 0.752942,
+          "A": 1.0,
+          "Hex": "FF86E1"
+        },
+        "DisplayName": "Color: Sakura",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetClover": {
+        "PrimaryColor": {
+          "R": 0.439657,
+          "G": 0.597202,
+          "B": 0.23074,
+          "A": 1.0,
+          "Hex": "B1CB84"
+        },
+        "SecondaryColor": {
+          "R": 0.064803,
+          "G": 0.278894,
+          "B": 0.082283,
+          "A": 1.0,
+          "Hex": "489051"
+        },
+        "TertiaryColor": {
+          "R": 0.064803,
+          "G": 0.278894,
+          "B": 0.082283,
+          "A": 1.0,
+          "Hex": "489051"
+        },
+        "EmissiveColor": {
+          "R": 0.212231,
+          "G": 0.955974,
+          "B": 0.072272,
+          "A": 1.0,
+          "Hex": "7FFA4C"
+        },
+        "DisplayName": "Color: 4 Leaf Clover",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBees": {
+        "PrimaryColor": {
+          "R": 0.760525,
+          "G": 0.623961,
+          "B": 0.07036,
+          "A": 1.0,
+          "Hex": "E2CF4B"
+        },
+        "SecondaryColor": {
+          "R": 0.019382,
+          "G": 0.017642,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "262424"
+        },
+        "TertiaryColor": {
+          "R": 0.019382,
+          "G": 0.017642,
+          "B": 0.017642,
+          "A": 1.0,
+          "Hex": "262424"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Bees",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetKaijuTeam": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.187821,
+          "B": 0.715694,
+          "A": 1.0,
+          "Hex": "FF78DC"
+        },
+        "SecondaryColor": {
+          "R": 0.376262,
+          "G": 0.376262,
+          "B": 0.376262,
+          "A": 1.0,
+          "Hex": "A5A5A5"
+        },
+        "TertiaryColor": {
+          "R": 0.376262,
+          "G": 0.376262,
+          "B": 0.376262,
+          "A": 1.0,
+          "Hex": "A5A5A5"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Kaiju!",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetKaijuA": {
+        "PrimaryColor": {
+          "R": 0.376262,
+          "G": 0.376262,
+          "B": 0.376262,
+          "A": 1.0,
+          "Hex": "A5A5A5"
+        },
+        "SecondaryColor": {
+          "R": 0.982251,
+          "G": 0.323143,
+          "B": 0.752942,
+          "A": 1.0,
+          "Hex": "FD9AE1"
+        },
+        "TertiaryColor": {
+          "R": 0.982251,
+          "G": 0.323143,
+          "B": 0.752942,
+          "A": 1.0,
+          "Hex": "FD9AE1"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.099899,
+          "B": 0.434154,
+          "A": 1.0,
+          "Hex": "FF59B0"
+        },
+        "DisplayName": "Color: Mechadon",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetKaijuB": {
+        "PrimaryColor": {
+          "R": 0.265644,
+          "G": 0.376953,
+          "B": 0.35188,
+          "A": 1.0,
+          "Hex": "8DA5A0"
+        },
+        "SecondaryColor": {
+          "R": 0.097587,
+          "G": 1.0,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "58FFB7"
+        },
+        "TertiaryColor": {
+          "R": 0.097587,
+          "G": 1.0,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "58FFB7"
+        },
+        "EmissiveColor": {
+          "R": 0.637597,
+          "G": 1.0,
+          "B": 0.102242,
+          "A": 1.0,
+          "Hex": "D1FF5A"
+        },
+        "DisplayName": "Color: Mecha-scale",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBasketball": {
+        "PrimaryColor": {
+          "R": 0.715694,
+          "G": 0.686686,
+          "B": 0.603828,
+          "A": 1.0,
+          "Hex": "DCD8CC"
+        },
+        "SecondaryColor": {
+          "R": 0.496933,
+          "G": 0.14996,
+          "B": 0.004025,
+          "A": 1.0,
+          "Hex": "BB6C0D"
+        },
+        "TertiaryColor": {
+          "R": 0.496933,
+          "G": 0.14996,
+          "B": 0.004025,
+          "A": 1.0,
+          "Hex": "BB6C0D"
+        },
+        "EmissiveColor": {
+          "R": 0.955974,
+          "G": 0.806952,
+          "B": 0.056128,
+          "A": 1.0,
+          "Hex": "FAE843"
+        },
+        "DisplayName": "Color: Basketball",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetHexane": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.06301,
+          "B": 0.584078,
+          "A": 1.0,
+          "Hex": "0047C9"
+        },
+        "SecondaryColor": {
+          "R": 0.491021,
+          "G": 0.020289,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BA27FF"
+        },
+        "TertiaryColor": {
+          "R": 0.491021,
+          "G": 0.020289,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BA27FF"
+        },
+        "EmissiveColor": {
+          "R": 0.55834,
+          "G": 0.226966,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "C583FF"
+        },
+        "DisplayName": "Color: Hexane",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetOnion": {
+        "PrimaryColor": {
+          "R": 0.168269,
+          "G": 0.08022,
+          "B": 0.01033,
+          "A": 1.0,
+          "Hex": "72501A"
+        },
+        "SecondaryColor": {
+          "R": 0.904661,
+          "G": 0.701102,
+          "B": 0.155926,
+          "A": 1.0,
+          "Hex": "F4DA6E"
+        },
+        "TertiaryColor": {
+          "R": 0.904661,
+          "G": 0.701102,
+          "B": 0.155926,
+          "A": 1.0,
+          "Hex": "F4DA6E"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Onion",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSunset": {
+        "PrimaryColor": {
+          "R": 0.132868,
+          "G": 0.015209,
+          "B": 0.327778,
+          "A": 1.0,
+          "Hex": "66219B"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.068478,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FF4A4A"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.068478,
+          "B": 0.068478,
+          "A": 1.0,
+          "Hex": "FF4A4A"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Sunset",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetDots": {
+        "PrimaryColor": {
+          "R": 0.01033,
+          "G": 0.391572,
+          "B": 0.0865,
+          "A": 1.0,
+          "Hex": "1AA853"
+        },
+        "SecondaryColor": {
+          "R": 0.028426,
+          "G": 0.045186,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "2F3C3F"
+        },
+        "TertiaryColor": {
+          "R": 0.028426,
+          "G": 0.045186,
+          "B": 0.049707,
+          "A": 1.0,
+          "Hex": "2F3C3F"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Dots",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetGrid": {
+        "PrimaryColor": {
+          "R": 0.059511,
+          "G": 0.141263,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "4569FF"
+        },
+        "SecondaryColor": {
+          "R": 0.947307,
+          "G": 0.947307,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "F9F9F9"
+        },
+        "TertiaryColor": {
+          "R": 0.947307,
+          "G": 0.947307,
+          "B": 0.947307,
+          "A": 1.0,
+          "Hex": "F9F9F9"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Grid",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPixelate": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.274677,
+          "B": 0.05448,
+          "A": 1.0,
+          "Hex": "FF8F42"
+        },
+        "SecondaryColor": {
+          "R": 0.822786,
+          "G": 0.022174,
+          "B": 0.022174,
+          "A": 1.0,
+          "Hex": "EA2929"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.686686,
+          "B": 0.036889,
+          "A": 1.0,
+          "Hex": "FFD836"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.887923,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFF200"
+        },
+        "DisplayName": "Color: Pixelate",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBunny": {
+        "PrimaryColor": {
+          "R": 0.973445,
+          "G": 0.73791,
+          "B": 0.119538,
+          "A": 1.0,
+          "Hex": "FCDF61"
+        },
+        "SecondaryColor": {
+          "R": 0.973445,
+          "G": 0.366253,
+          "B": 0.341914,
+          "A": 1.0,
+          "Hex": "FCA39E"
+        },
+        "TertiaryColor": {
+          "R": 0.000304,
+          "G": 0.371238,
+          "B": 0.991102,
+          "A": 1.0,
+          "Hex": "01A4FE"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.665387,
+          "B": 0.097587,
+          "A": 1.0,
+          "Hex": "FFD558"
+        },
+        "DisplayName": "Color: Bunny",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSummerCrush": {
+        "PrimaryColor": {
+          "R": 0.814847,
+          "G": 0.074214,
+          "B": 0.000607,
+          "A": 1.0,
+          "Hex": "E94D02"
+        },
+        "SecondaryColor": {
+          "R": 0.991102,
+          "G": 0.162029,
+          "B": 0.000911,
+          "A": 1.0,
+          "Hex": "FE7003"
+        },
+        "TertiaryColor": {
+          "R": 0.991102,
+          "G": 0.162029,
+          "B": 0.000911,
+          "A": 1.0,
+          "Hex": "FE7003"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.313989,
+          "B": 0.114435,
+          "A": 1.0,
+          "Hex": "FF985F"
+        },
+        "DisplayName": "Color: Summer Crush",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStorm": {
+        "PrimaryColor": {
+          "R": 0.004391,
+          "G": 0.008023,
+          "B": 0.022174,
+          "A": 1.0,
+          "Hex": "0E1629"
+        },
+        "SecondaryColor": {
+          "R": 0.029557,
+          "G": 0.003035,
+          "B": 0.119538,
+          "A": 1.0,
+          "Hex": "300A61"
+        },
+        "TertiaryColor": {
+          "R": 0.061246,
+          "G": 0.025187,
+          "B": 0.242281,
+          "A": 1.0,
+          "Hex": "462C87"
+        },
+        "EmissiveColor": {
+          "R": 0.011612,
+          "G": 0.004777,
+          "B": 0.046665,
+          "A": 1.0,
+          "Hex": "1C0F3D"
+        },
+        "DisplayName": "Color: Storm",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetRaindrops": {
+        "PrimaryColor": {
+          "R": 0.036889,
+          "G": 0.045186,
+          "B": 0.078187,
+          "A": 1.0,
+          "Hex": "363C4F"
+        },
+        "SecondaryColor": {
+          "R": 0.258183,
+          "G": 0.401978,
+          "B": 0.686685,
+          "A": 1.0,
+          "Hex": "8BAAD8"
+        },
+        "TertiaryColor": {
+          "R": 0.258183,
+          "G": 0.401978,
+          "B": 0.686685,
+          "A": 1.0,
+          "Hex": "8BAAD8"
+        },
+        "EmissiveColor": {
+          "R": 0.371238,
+          "G": 0.552011,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "A4C4FF"
+        },
+        "DisplayName": "Color: Raindrops",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBinary": {
+        "PrimaryColor": {
+          "R": 0.026241,
+          "G": 0.051269,
+          "B": 0.194618,
+          "A": 1.0,
+          "Hex": "2D407A"
+        },
+        "SecondaryColor": {
+          "R": 0.017642,
+          "G": 0.783538,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "24E5FF"
+        },
+        "TertiaryColor": {
+          "R": 0.017642,
+          "G": 0.783538,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "24E5FF"
+        },
+        "EmissiveColor": {
+          "R": 0.47932,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "B8FFFD"
+        },
+        "DisplayName": "Color: Binary",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetTempest": {
+        "PrimaryColor": {
+          "R": 0.102242,
+          "G": 0.104616,
+          "B": 0.114435,
+          "A": 1.0,
+          "Hex": "5A5B5F"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.456411,
+          "B": 0.000304,
+          "A": 1.0,
+          "Hex": "FFB401"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.456411,
+          "B": 0.000304,
+          "A": 1.0,
+          "Hex": "FFB401"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: Tempest",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLivewire": {
+        "PrimaryColor": {
+          "R": 0.205079,
+          "G": 0.234551,
+          "B": 0.215861,
+          "A": 1.0,
+          "Hex": "7D8580"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.896269,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "00F3FF"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.896269,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "00F3FF"
+        },
+        "EmissiveColor": {
+          "R": 0.708376,
+          "G": 0.887923,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "DBF200"
+        },
+        "DisplayName": "Color: Live Wire",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStormTeamColor": {
+        "PrimaryColor": {
+          "R": 0.052861,
+          "G": 0.376262,
+          "B": 0.760525,
+          "A": 1.0,
+          "Hex": "41A5E2"
+        },
+        "SecondaryColor": {
+          "R": 0.059511,
+          "G": 0.887923,
+          "B": 0.135633,
+          "A": 1.0,
+          "Hex": "45F267"
+        },
+        "TertiaryColor": {
+          "R": 0.059511,
+          "G": 0.887923,
+          "B": 0.135633,
+          "A": 1.0,
+          "Hex": "45F267"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Storm Team Color",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetArgyle": {
+        "PrimaryColor": {
+          "R": 0.003347,
+          "G": 0.246201,
+          "B": 0.056128,
+          "A": 1.0,
+          "Hex": "0B8843"
+        },
+        "SecondaryColor": {
+          "R": 0.035601,
+          "G": 0.603828,
+          "B": 0.871367,
+          "A": 1.0,
+          "Hex": "35CCF0"
+        },
+        "TertiaryColor": {
+          "R": 0.006049,
+          "G": 0.040915,
+          "B": 0.162029,
+          "A": 1.0,
+          "Hex": "123970"
+        },
+        "EmissiveColor": {
+          "R": 0.47932,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "B8FFFD"
+        },
+        "DisplayName": "Color: Argyle",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetChiptune": {
+        "PrimaryColor": {
+          "R": 0.223228,
+          "G": 1.0,
+          "B": 0.051269,
+          "A": 1.0,
+          "Hex": "82FF40"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.672443,
+          "A": 1.0,
+          "Hex": "FF00D6"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.672443,
+          "A": 1.0,
+          "Hex": "FF00D6"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.158961,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "FF6FFD"
+        },
+        "DisplayName": "Color: Chiptune",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetDarkMatter": {
+        "PrimaryColor": {
+          "R": 0.01096,
+          "G": 0.01096,
+          "B": 0.015996,
+          "A": 1.0,
+          "Hex": "1B1B22"
+        },
+        "SecondaryColor": {
+          "R": 0.08022,
+          "G": 0.08022,
+          "B": 0.119538,
+          "A": 1.0,
+          "Hex": "505061"
+        },
+        "TertiaryColor": {
+          "R": 0.904661,
+          "G": 0.361307,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "F4A200"
+        },
+        "EmissiveColor": {
+          "R": 0.03434,
+          "G": 0.033105,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "3433FF"
+        },
+        "DisplayName": "Color: Dark Matter",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMasterControl": {
+        "PrimaryColor": {
+          "R": 0.016807,
+          "G": 0.006995,
+          "B": 0.006995,
+          "A": 1.0,
+          "Hex": "231414"
+        },
+        "SecondaryColor": {
+          "R": 0.846873,
+          "G": 0.01096,
+          "B": 0.01096,
+          "A": 1.0,
+          "Hex": "ED1B1B"
+        },
+        "TertiaryColor": {
+          "R": 0.846873,
+          "G": 0.01096,
+          "B": 0.01096,
+          "A": 1.0,
+          "Hex": "ED1B1B"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "DisplayName": "Color: Master Control",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSparkleEmissive": {
+        "PrimaryColor": {
+          "R": 0.023153,
+          "G": 0.000911,
+          "B": 0.072272,
+          "A": 1.0,
+          "Hex": "2A034C"
+        },
+        "SecondaryColor": {
+          "R": 0.783538,
+          "G": 0.155926,
+          "B": 0.051269,
+          "A": 1.0,
+          "Hex": "E56E40"
+        },
+        "TertiaryColor": {
+          "R": 0.783538,
+          "G": 0.155926,
+          "B": 0.051269,
+          "A": 1.0,
+          "Hex": "E56E40"
+        },
+        "EmissiveColor": {
+          "R": 0.590619,
+          "G": 0.155926,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "CA6EFF"
+        },
+        "DisplayName": "Color: Sparkle Emissive",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetGridEmissive": {
+        "PrimaryColor": {
+          "R": 0.391572,
+          "G": 0.391572,
+          "B": 0.391572,
+          "A": 1.0,
+          "Hex": "A8A8A8"
+        },
+        "SecondaryColor": {
+          "R": 0.147027,
+          "G": 0.127438,
+          "B": 0.127438,
+          "A": 1.0,
+          "Hex": "6B6464"
+        },
+        "TertiaryColor": {
+          "R": 0.147027,
+          "G": 0.127438,
+          "B": 0.127438,
+          "A": 1.0,
+          "Hex": "6B6464"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.009134,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF1800"
+        },
+        "DisplayName": "Color: The Grid",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetMimic": {
+        "PrimaryColor": {
+          "R": 0.201556,
+          "G": 0.056128,
+          "B": 0.473532,
+          "A": 1.0,
+          "Hex": "7C43B7"
+        },
+        "SecondaryColor": {
+          "R": 0.006512,
+          "G": 0.198069,
+          "B": 0.913099,
+          "A": 1.0,
+          "Hex": "137BF5"
+        },
+        "TertiaryColor": {
+          "R": 0.006512,
+          "G": 0.198069,
+          "B": 0.913099,
+          "A": 1.0,
+          "Hex": "137BF5"
+        },
+        "EmissiveColor": {
+          "R": 0.527115,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "C000FF"
+        },
+        "DisplayName": "Color: Fathom",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetHawaiianA": {
+        "PrimaryColor": {
+          "R": 0.623961,
+          "G": 0.162029,
+          "B": 0.014444,
+          "A": 1.0,
+          "Hex": "CF7020"
+        },
+        "SecondaryColor": {
+          "R": 0.304987,
+          "G": 0.964687,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "96FBFF"
+        },
+        "TertiaryColor": {
+          "R": 0.181164,
+          "G": 0.715694,
+          "B": 0.198069,
+          "A": 1.0,
+          "Hex": "76DC7B"
+        },
+        "EmissiveColor": {
+          "R": 0.015209,
+          "G": 1.0,
+          "B": 0.104616,
+          "A": 1.0,
+          "Hex": "21FF5B"
+        },
+        "DisplayName": "Color: Hawaiian Shirt",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetHawaiianB": {
+        "PrimaryColor": {
+          "R": 0.300544,
+          "G": 0.038204,
+          "B": 0.514918,
+          "A": 1.0,
+          "Hex": "9537BE"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.964687,
+          "B": 0.074214,
+          "A": 1.0,
+          "Hex": "00FB4D"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 0.026241,
+          "B": 0.630757,
+          "A": 1.0,
+          "Hex": "FF2DD0"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.337164,
+          "B": 0.114435,
+          "A": 1.0,
+          "Hex": "FF9D5F"
+        },
+        "DisplayName": "Color: Palms",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetWaveB": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.520996,
+          "B": 0.545725,
+          "A": 1.0,
+          "Hex": "00BFC3"
+        },
+        "SecondaryColor": {
+          "R": 0.029557,
+          "G": 0.06301,
+          "B": 0.346704,
+          "A": 1.0,
+          "Hex": "30479F"
+        },
+        "TertiaryColor": {
+          "R": 0.029557,
+          "G": 0.06301,
+          "B": 0.346704,
+          "A": 1.0,
+          "Hex": "30479F"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 0.051269,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0040FF"
+        },
+        "DisplayName": "Color: Surf's Up",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetRGB": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF0000"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "00FF00"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0000FF"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "DisplayName": "Color: RGB",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetWaveA": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.545725,
+          "B": 0.246201,
+          "A": 1.0,
+          "Hex": "00C388"
+        },
+        "SecondaryColor": {
+          "R": 0.05448,
+          "G": 0.035601,
+          "B": 0.913099,
+          "A": 1.0,
+          "Hex": "4235F5"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.982251,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "00FDFF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.109462,
+          "A": 1.0,
+          "Hex": "00FF5D"
+        },
+        "DisplayName": "Color: Wavy",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetBaseball": {
+        "PrimaryColor": {
+          "R": 0.318547,
+          "G": 0.011612,
+          "B": 0.019382,
+          "A": 1.0,
+          "Hex": "991C26"
+        },
+        "SecondaryColor": {
+          "R": 0.863157,
+          "G": 0.806952,
+          "B": 0.723055,
+          "A": 1.0,
+          "Hex": "EFE8DD"
+        },
+        "TertiaryColor": {
+          "R": 0.863157,
+          "G": 0.806952,
+          "B": 0.723055,
+          "A": 1.0,
+          "Hex": "EFE8DD"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.584079,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFC900"
+        },
+        "DisplayName": "Color: Baseball",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCaustic": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.07036,
+          "B": 0.341915,
+          "A": 1.0,
+          "Hex": "004B9E"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.371891,
+          "B": 0.814453,
+          "A": 1.0,
+          "Hex": "00A4E9"
+        },
+        "TertiaryColor": {
+          "R": 0.40724,
+          "G": 0.53948,
+          "B": 0.775822,
+          "A": 1.0,
+          "Hex": "ABC2E4"
+        },
+        "EmissiveColor": {
+          "R": 0.401978,
+          "G": 0.068478,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "AA4AFF"
+        },
+        "DisplayName": "Color: Caustic",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetCircuitEmissive": {
+        "PrimaryColor": {
+          "R": 0.06301,
+          "G": 0.266356,
+          "B": 0.130136,
+          "A": 1.0,
+          "Hex": "478D65"
+        },
+        "SecondaryColor": {
+          "R": 0.752942,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "E1FF00"
+        },
+        "TertiaryColor": {
+          "R": 0.752942,
+          "G": 1.0,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "E1FF00"
+        },
+        "EmissiveColor": {
+          "R": 0.401978,
+          "G": 1.0,
+          "B": 0.038204,
+          "A": 1.0,
+          "Hex": "AAFF37"
+        },
+        "DisplayName": "Color: Circuit Board",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetTeamCuttlefish": {
+        "PrimaryColor": {
+          "R": 0.496933,
+          "G": 0.046665,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "BB3DFF"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.038204,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0037FF"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.038204,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0037FF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Cuttlefish",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStripes": {
+        "PrimaryColor": {
+          "R": 0.982251,
+          "G": 0.323143,
+          "B": 0.752942,
+          "A": 1.0,
+          "Hex": "FD9AE1"
+        },
+        "SecondaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 1.0,
+          "B": 0.982251,
+          "A": 1.0,
+          "Hex": "00FFFD"
+        },
+        "DisplayName": "Color: Candy",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetFrogSpots": {
+        "PrimaryColor": {
+          "R": 0.822786,
+          "G": 0.274677,
+          "B": 0.004391,
+          "A": 1.0,
+          "Hex": "EA8F0E"
+        },
+        "SecondaryColor": {
+          "R": 0.034818,
+          "G": 0.131128,
+          "B": 0.600911,
+          "A": 1.0,
+          "Hex": "3465CC"
+        },
+        "TertiaryColor": {
+          "R": 0.008568,
+          "G": 0.003347,
+          "B": 0.004025,
+          "A": 1.0,
+          "Hex": "170B0D"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 0.310047,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "0097FF"
+        },
+        "DisplayName": "Color: Dart",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetRubberDuck": {
+        "PrimaryColor": {
+          "R": 0.381326,
+          "G": 0.135633,
+          "B": 0.590619,
+          "A": 1.0,
+          "Hex": "A667CA"
+        },
+        "SecondaryColor": {
+          "R": 0.715694,
+          "G": 0.445201,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "DCB200"
+        },
+        "TertiaryColor": {
+          "R": 0.715694,
+          "G": 0.254152,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "DC8A00"
+        },
+        "EmissiveColor": {
+          "R": 0.964687,
+          "G": 0.527115,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FBC000"
+        },
+        "DisplayName": "Color: Ducky",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetSalamander": {
+        "PrimaryColor": {
+          "R": 0.005605,
+          "G": 0.008023,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "111600"
+        },
+        "SecondaryColor": {
+          "R": 0.938686,
+          "G": 0.89627,
+          "B": 0.009721,
+          "A": 1.0,
+          "Hex": "F8F319"
+        },
+        "TertiaryColor": {
+          "R": 0.938686,
+          "G": 0.89627,
+          "B": 0.009721,
+          "A": 1.0,
+          "Hex": "F8F319"
+        },
+        "EmissiveColor": {
+          "R": 0.0,
+          "G": 0.022174,
+          "B": 0.144128,
+          "A": 1.0,
+          "Hex": "00296A"
+        },
+        "DisplayName": "Color: Salamander",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetLifesaver": {
+        "PrimaryColor": {
+          "R": 0.0,
+          "G": 0.47932,
+          "B": 0.913099,
+          "A": 1.0,
+          "Hex": "00B8F5"
+        },
+        "SecondaryColor": {
+          "R": 0.930111,
+          "G": 0.040915,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "F7393C"
+        },
+        "TertiaryColor": {
+          "R": 1.0,
+          "G": 1.0,
+          "B": 1.0,
+          "A": 1.0,
+          "Hex": "FFFFFF"
+        },
+        "EmissiveColor": {
+          "R": 0.930111,
+          "G": 0.040915,
+          "B": 0.045186,
+          "A": 1.0,
+          "Hex": "F7393C"
+        },
+        "DisplayName": "Color: Lifesaver",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetStarHopper": {
+        "PrimaryColor": {
+          "R": 0.220083,
+          "G": 0.652995,
+          "B": 0.002126,
+          "A": 1.0,
+          "Hex": "81D407"
+        },
+        "SecondaryColor": {
+          "R": 0.068225,
+          "G": 0.173828,
+          "B": 0.015057,
+          "A": 1.0,
+          "Hex": "4A7420"
+        },
+        "TertiaryColor": {
+          "R": 0.26237,
+          "G": 0.028286,
+          "B": 0.026134,
+          "A": 1.0,
+          "Hex": "8C2F2D"
+        },
+        "EmissiveColor": {
+          "R": 1.0,
+          "G": 0.729358,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FFDE00"
+        },
+        "DisplayName": "Color: Star Hopper",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      },
+      "ColorPresetPaintBrush": {
+        "PrimaryColor": {
+          "R": 1.0,
+          "G": 0.262251,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "FF8C00"
+        },
+        "SecondaryColor": {
+          "R": 0.0,
+          "G": 0.745404,
+          "B": 0.023153,
+          "A": 1.0,
+          "Hex": "00E02A"
+        },
+        "TertiaryColor": {
+          "R": 0.0,
+          "G": 0.745404,
+          "B": 0.023153,
+          "A": 1.0,
+          "Hex": "00E02A"
+        },
+        "EmissiveColor": {
+          "R": 0.138432,
+          "G": 0.964687,
+          "B": 0.0,
+          "A": 1.0,
+          "Hex": "68FB00"
+        },
+        "DisplayName": "Color: Paint Brush",
+        "Description": "",
+        "ItemType": "EA2ItemType::ColorPreset",
+        "Flags": 0,
+        "GameplayTagContainer": [],
+        "bAutoEquipLinkedItems": true,
+        "LinkedItems": [],
+        "bAvailableForSale": false,
+        "ID": "None"
+      }
+    }
+  }
+]
